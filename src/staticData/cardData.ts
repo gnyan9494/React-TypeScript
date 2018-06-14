@@ -624,20 +624,26 @@ export const mockData: any = [
 
 export const uniqueSkillList: any = 
 [
-  'Ruby', 'Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'React Js', 'Material UI', 'Python', 'Django', 
-  'SQL', 'Node Js', 'Javascript', 'AWS', 'Bash Shell script', 'Batch Script', 'Jenkins', 'AngularJs', 'Java', 'spring', 'Clojure',
-  'Nginx', 'Hydra', 'kafka', 'Angular 2', 'Hadoop', 'Angular Js', '.NET', 'C#', 'Slim', 'Typescript', 'Jquery', 'Php', 'Ajax', 'XML',
-  'Machine Learning', 'R', 'Numpy', 'Block Chain'
+  { name: 'Ruby' },{ name: 'Ruby on rails' },{ name: 'CSS' },{ name: 'Bootstrap' },{ name: 'Html' },{ name: 'Docker' },{ name: 'Postgresql' },
+  { name: 'React Js' },{ name: 'Material UI' },{ name: 'Python' },{ name: 'Django' },{ name: 'SQL' },{ name: 'Node Js' },{ name: 'Javascript' },
+  { name: 'AWS' },{ name: 'Bash Shell script' },{ name: 'Batch Script' },{ name: 'Jenkins' },{ name: 'AngularJs' },{ name: 'Java' },{ name: 'spring' },
+  { name: 'Clojure' },{ name: 'Nginx' },{ name: 'Hydra' },{ name: 'kafka' },{ name: 'Angular 2' },{ name: 'Hadoop' },{ name: '.NET' },{ name: 'C#' },
+  { name: 'Slim' },{ name: 'Typescript' },{ name: 'Jquery' },{ name: 'Machine Learning' },{ name: 'Numpy' },{ name: 'R' },{ name: 'Block Chain' },
+  { name: 'Ajax' },{ name: 'Php' },{ name: 'XML' },{ name: 'Azure' }
+ 
 ]
 
 export const uniqueManagerList: any = 
 [
-  'Manager Name 1', 'Manager Name 2', 'Manager Name 3', 'Manager Name 4', 'Manager Name 5', 'Manager Name 6', 'Manager Name 7', 'Manager Name 8',
-  'Manager Name 9', 'Manager Name 10', 'Manager Name 11', 'Manager Name 12', 'Manager Name 13', 'Manager Name 14', 'Manager Name 15', 'Manager Name 16',
-  'Manager Name 17', 'Manager Name 18', 'Manager Name 19', 'Manager Name 20', 'Manager Name 21', 'Manager Name 22', 'Manager Name 23', 'Manager Name 24',
-  'Manager Name 25', 'Manager Name 26', 'Manager Name 27', 'Manager Name 28', 'Manager Name 29', 'Manager Name 30', 'Manager Name 31', 'Manager Name 32',
-  'Manager Name 33', 'Manager Name 34', 'Manager Name 35', 'Manager Name 36', 'Manager Name 37', 'Manager Name 38', 'Manager Name 39', 'Manager Name 40',
-  'Manager Name 41', 'Manager Name 42', 'Manager Name 43', 'Manager Name 44', 'Manager Name 45'
+  { name: 'Manager Name 1' }, { name: 'Manager Name 2' }, { name: 'Manager Name 3' }, { name: 'Manager Name 4' }, { name: 'Manager Name 5' }, 
+  { name: 'Manager Name 6' }, { name: 'Manager Name 7' }, { name: 'Manager Name 8' },{ name: 'Manager Name 9' }, { name: 'Manager Name 10' }, 
+  { name: 'Manager Name 11' }, { name: 'Manager Name 12' }, { name: 'Manager Name 13' }, { name: 'Manager Name 14' }, { name: 'Manager Name 15' },
+  { name: 'Manager Name 16' },{ name: 'Manager Name 17' }, { name: 'Manager Name 18' }, { name: 'Manager Name 19' }, { name: 'Manager Name 20' }, 
+  { name: 'Manager Name 21' },{ name: 'Manager Name 22' }, { name: 'Manager Name 23' }, { name: 'Manager Name 24' }, { name: 'Manager Name 25' }, 
+  { name: 'Manager Name 26' }, { name: 'Manager Name 27' }, { name: 'Manager Name 28' }, { name: 'Manager Name 29' },{ name: 'Manager Name 30' }, 
+  { name: 'Manager Name 31' }, { name: 'Manager Name 32' }, { name: 'Manager Name 33' }, { name: 'Manager Name 34' }, { name: 'Manager Name 35' },
+  { name: 'Manager Name 36' }, { name: 'Manager Name 37' }, { name: 'Manager Name 38' }, { name: 'Manager Name 39' }, { name: 'Manager Name 40' },
+  { name: 'Manager Name 41' }, { name: 'Manager Name 42' }, { name: 'Manager Name 43' }, { name: 'Manager Name 44' }, { name: 'Manager Name 45' }
 ]
 
 

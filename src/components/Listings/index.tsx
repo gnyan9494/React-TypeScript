@@ -15,10 +15,9 @@ interface IListingsProps {
 
 export class Listings extends React.Component<IListingsProps> {
 
-  displayListings = (type: any) => {
+  public displayListings = (type: any) => {
     const data: any[] = []
     mockData.map((item:any) => {
-      debugger
       if (item.location.toLowerCase() === type.toLowerCase() || type.toLowerCase() === 'all') {
         const temp = <div {...listingCardStyles}>
                       <div className='card'>
@@ -49,7 +48,6 @@ export class Listings extends React.Component<IListingsProps> {
 
   public render() {
     const { type } = this.props
-    debugger
     return this.displayListings(type)
   }
 }

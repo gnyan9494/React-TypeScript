@@ -1,13 +1,15 @@
 /*tslint:disable*/
 import * as React from 'react'
+import  Autosuggest  from 'react-autosuggest'
 
 import 'node_modules/bootstrap/dist/css/bootstrap.min.css'
+import { uniqueSkillList, uniqueManagerList } from '../../staticData/cardData'
 
 import { headerStyles } from './styles'
 
 // use react-bootstrap package instead of node_modules
 
-interface HeaderProps {
+interface IHeaderProps {
   filter (event: any): any
 }
 
@@ -15,9 +17,10 @@ interface IState {
   type: string
 }
 
-export class Header extends React.Component<HeaderProps, IState> {
+export class Header extends React.Component<IHeaderProps, IState> {
 
-  change = (event:any) => {
+
+  public change = (event:any) => {
     const { filter } = this.props
     filter(event.target.value)
   }
@@ -42,7 +45,7 @@ export class Header extends React.Component<HeaderProps, IState> {
         </form>
         <form className='navbar-form navbar-left'>
             <div className='form-group'>
-              <input type='text' className='form-control' placeholder='Search by manager'/>
+            {/* <Autosuggest  /> */}
             </div>
             <button type='submit' className='btn btn-default'>Submit</button>
         </form>
