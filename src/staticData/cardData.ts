@@ -622,7 +622,7 @@ export const mockData: any = [
   ]
   
 
-export const uniqueSkillList: any = 
+export const SkillList: any = 
 [
   { name: 'Ruby' },{ name: 'Ruby on rails' },{ name: 'CSS' },{ name: 'Bootstrap' },{ name: 'Html' },{ name: 'Docker' },{ name: 'Postgresql' },
   { name: 'React Js' },{ name: 'Material UI' },{ name: 'Python' },{ name: 'Django' },{ name: 'SQL' },{ name: 'Node Js' },{ name: 'Javascript' },
@@ -633,7 +633,7 @@ export const uniqueSkillList: any =
  
 ]
 
-export const uniqueManagerList: any = 
+export const ManagerList: any = 
 [
   { name: 'Manager Name 1' }, { name: 'Manager Name 2' }, { name: 'Manager Name 3' }, { name: 'Manager Name 4' }, { name: 'Manager Name 5' }, 
   { name: 'Manager Name 6' }, { name: 'Manager Name 7' }, { name: 'Manager Name 8' },{ name: 'Manager Name 9' }, { name: 'Manager Name 10' }, 

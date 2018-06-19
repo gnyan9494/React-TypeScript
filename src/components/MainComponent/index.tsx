@@ -1,6 +1,6 @@
 import * as React from 'react'
 import { Header } from '../Header'
-import { Listings } from '../Listings'
+// import { Listings } from '../Listings'
 // import bgimage from '../assets/images'
 import './styles.css'
 
@@ -25,7 +25,7 @@ export class App extends React.Component<{}, IState> {
     return (
     <body>
       <Header filter={this.changeType}/>
-      <Listings type={this.state.type}/>
+      {/* <Listings type={this.state.type}/> */}
     </body>
     )
   }

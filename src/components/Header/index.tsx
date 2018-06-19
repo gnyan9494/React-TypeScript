@@ -1,9 +1,9 @@
 /*tslint:disable*/
 import * as React from 'react'
-import  Autosuggest  from 'react-autosuggest'
+import   Autosuggest   from 'react-autosuggest'
 
 import 'node_modules/bootstrap/dist/css/bootstrap.min.css'
-import { uniqueSkillList, uniqueManagerList } from '../../staticData/cardData'
+import { SkillList, ManagerList } from '../../staticData/cardData'
 
 import { headerStyles } from './styles'
 
@@ -14,18 +14,124 @@ interface IHeaderProps {
 }
 
 interface IState {
-  type: string
+  type: string,
+  manValue: string,
+  techValue: string,
+  techSuggestions: Array<object>
+  manSuggestions: Array<object>
 }
 
 export class Header extends React.Component<IHeaderProps, IState> {
+  constructor(props: any) {
+    super(props);
 
+    this.state = {
+      type: 'all',
+      manValue: '',
+      techValue: '',
+      techSuggestions: [],
+      manSuggestions: []
+    };    
+  }
+
+  onManChange = (event: any, { newValue, method }: any) => {
+    this.setState({
+      manValue: newValue
+    });
+  };
+
+  onTechChange = (event: any, { newValue, method }: any) => {
+    this.setState({
+      techValue: newValue
+    });
+  };
+  
+  onTechSuggestionsFetchRequested = ({ value }: any) => {
+    this.setState({
+      techSuggestions: this.getTechSuggestions(value)
+    });
+  };
+
+  onManSuggestionsFetchRequested = ({ value }: any) => {
+    this.setState({
+      manSuggestions: this.getManSuggestions(value)
+    });
+  };
+
+  onSuggestionsClearRequested = () => {
+    this.setState({
+      techSuggestions: [],
+      manSuggestions: []
+    });
+  };
 
   public change = (event:any) => {
     const { filter } = this.props
     filter(event.target.value)
   }
 
+  escapeRegexCharacters = (str: any) => {
+    return str.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  }
+  
+  getManSuggestions = (value: any) => {
+    const escapedValue = this.escapeRegexCharacters(value.trim());
+    
+    if (escapedValue === '') {
+      return [];
+    }
+  
+    const regex = new RegExp('^' + escapedValue, 'i');
+  
+    return ManagerList.filter((language: any) => regex.test(language.name));
+  }
+
+  getTechSuggestions = (value: any) => {
+    const escapedValue = this.escapeRegexCharacters(value.trim());
+    
+    if (escapedValue === '') {
+      return [];
+    }
+  
+    const regex = new RegExp('^' + escapedValue, 'i');
+  
+    return SkillList.filter((language: any) => regex.test(language.name));
+  }
+  
+  getTechSuggestionValue = (suggestion: any) => {
+    return suggestion.name;
+  }
+
+  getManSuggestionValue = (suggestion: any) => {
+    return suggestion.name;
+  }
+  
+  renderManSuggestion = (suggestion: any) => {
+    return (
+      <span>{suggestion.name}</span>
+    );
+  }
+
+  renderTechSuggestion = (suggestion: any) => {
+    return (
+      <span>{suggestion.name}</span>
+    );
+  }
+
     public render() {
+
+      const { manValue, techValue, techSuggestions, manSuggestions } = this.state;
+      const techInputProps = {
+        placeholder: 'Search by technology',
+        value: techValue,
+        onChange: this.onTechChange
+      };
+      const manInputProps = {
+        placeholder: 'Search by manager name',
+        value: manValue,
+        onChange: this.onManChange
+      };
+
       return (
     <nav className='navbar navbar-inverse' {...headerStyles}>
       <div className='container-fluid'>
@@ -45,13 +151,25 @@ export class Header extends React.Component<IHeaderProps, IState> {
         </form>
         <form className='navbar-form navbar-left'>
             <div className='form-group'>
-            {/* <Autosuggest  /> */}
+              <Autosuggest 
+                suggestions={techSuggestions}
+                onSuggestionsFetchRequested={this.onTechSuggestionsFetchRequested}
+                onSuggestionsClearRequested={this.onSuggestionsClearRequested}
+                getSuggestionValue={this.getTechSuggestionValue}
+                renderSuggestion={this.renderTechSuggestion}
+                inputProps={techInputProps} />
             </div>
             <button type='submit' className='btn btn-default'>Submit</button>
         </form>
         <form className='navbar-form navbar-left' >
             <div className='form-group'>
-              <input type='text' className='form-control' placeholder='Search by technology'/>
+            <Autosuggest 
+                suggestions={manSuggestions}
+                onSuggestionsFetchRequested={this.onManSuggestionsFetchRequested}
+                onSuggestionsClearRequested={this.onSuggestionsClearRequested}
+                getSuggestionValue={this.getManSuggestionValue}
+                renderSuggestion={this.renderManSuggestion}
+                inputProps={manInputProps} />
             </div>
             <button type='submit' className='btn btn-default'>Submit</button>
         </form>
@@ -64,4 +182,3 @@ export class Header extends React.Component<IHeaderProps, IState> {
       )
     }
 }
-
