@@ -10,7 +10,7 @@ import { headerStyles } from './styles'
 // use react-bootstrap package instead of node_modules
 
 interface IHeaderProps {
-  filter (event: any): any
+  filter (v1: string, v2:string, v3: string): any
 }
 
 interface IState {
@@ -26,13 +26,14 @@ export class Header extends React.Component<IHeaderProps, IState> {
     super(props);
 
     this.state = {
-      type: 'all',
+      type: 'ALL',
       manValue: '',
       techValue: '',
       techSuggestions: [],
       manSuggestions: []
-    };    
+    } 
   }
+
 
   onManChange = (event: any, { newValue, method }: any) => {
     this.setState({
@@ -65,9 +66,17 @@ export class Header extends React.Component<IHeaderProps, IState> {
     });
   };
 
-  public change = (event:any) => {
+  getLocation = (event: any) => {
     const { filter } = this.props
-    filter(event.target.value)
+    const { manValue, techValue } = this.state  
+    this.setState({ type: event.target.value})
+    filter(event.target.value, techValue, manValue)    
+  }
+
+  change = (event:any): any => {
+    const { filter } = this.props
+    const { type, manValue, techValue } = this.state  
+    filter(type, techValue, manValue)
   }
 
   escapeRegexCharacters = (str: any) => {
@@ -118,7 +127,7 @@ export class Header extends React.Component<IHeaderProps, IState> {
     );
   }
 
-    public render() {
+    render() {
 
       const { manValue, techValue, techSuggestions, manSuggestions } = this.state;
       const techInputProps = {
@@ -127,7 +136,7 @@ export class Header extends React.Component<IHeaderProps, IState> {
         onChange: this.onTechChange
       };
       const manInputProps = {
-        placeholder: 'Search by manager name',
+        placeholder: 'Search by manager',
         value: manValue,
         onChange: this.onManChange
       };
@@ -140,16 +149,16 @@ export class Header extends React.Component<IHeaderProps, IState> {
                 <span className='ggkColor'>GGK</span> <span className='techColor'>TECH</span>
             </a>
         </div>
-        <form className='navbar-form navbar-left locationDropdown'>
+        <div className='navbar-form navbar-left locationDropdown'>
             <div className='form-group'>
-                <select className='form-control' onChange={this.change} >
+                <select className='form-control' onChange={this.getLocation}>
                   <option value = 'All'>All</option>
                   <option value = 'Uppal'>Uppal</option>
                   <option value = 'Waverock'>Waverock</option>
                 </select>
             </div> 
-        </form>
-        <form className='navbar-form navbar-left'>
+        </div>
+        <div className='navbar-form navbar-left'>
             <div className='form-group'>
               <Autosuggest 
                 suggestions={techSuggestions}
@@ -159,9 +168,9 @@ export class Header extends React.Component<IHeaderProps, IState> {
                 renderSuggestion={this.renderTechSuggestion}
                 inputProps={techInputProps} />
             </div>
-            <button type='submit' className='btn btn-default'>Submit</button>
-        </form>
-        <form className='navbar-form navbar-left' >
+            <button className='btn btn-default' onClick={this.change}>Submit</button>
+        </div>
+        <div className='navbar-form navbar-left' >
             <div className='form-group'>
             <Autosuggest 
                 suggestions={manSuggestions}
@@ -171,8 +180,8 @@ export class Header extends React.Component<IHeaderProps, IState> {
                 renderSuggestion={this.renderManSuggestion}
                 inputProps={manInputProps} />
             </div>
-            <button type='submit' className='btn btn-default'>Submit</button>
-        </form>
+            <button className='btn btn-default' onClick={this.change}>Submit</button>
+        </div>
         <ul className='nav navbar-nav navbar-right'>
           <li><a href='#' className='btn' data-toggle='modal' data-target='#loginModal'>
           <span className='glyphicon glyphicon-log-in'/>  L O G I N</a></li>

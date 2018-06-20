@@ -1,11 +1,14 @@
+/*tslint:disable*/
 import * as React from 'react'
 import { Header } from '../Header'
-// import { Listings } from '../Listings'
+import { Listings } from '../Listings'
 // import bgimage from '../assets/images'
 import './styles.css'
 
 interface IState {
   type: string
+  manValue: string,
+  techValue: string,
 }
 
 export class App extends React.Component<{}, IState> {
@@ -13,19 +16,24 @@ export class App extends React.Component<{}, IState> {
     super(props)
     this.changeType = this.changeType.bind(this)
     this.state = {
-      type: 'all'
+      type: 'all',
+      manValue: '',
+      techValue: ''
     }
   }
-
-  public changeType = (data: any) => {
-    this.setState({type: data})
+  shouldComponentUpdate() {
+    return true;
+  }
+  changeType = (data: string, techValue: string, manValue: string) => {
+    debugger
+    this.setState({type: data, techValue: techValue, manValue: manValue})
   }
 
-  public render() {
+  render() {
     return (
     <body>
       <Header filter={this.changeType}/>
-      {/* <Listings type={this.state.type}/> */}
+      <Listings type={this.state.type} manValue={this.state.manValue} techValue={this.state.techValue}/>
     </body>
     )
   }
