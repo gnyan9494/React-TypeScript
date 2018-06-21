@@ -52,572 +52,572 @@ export const mockData: any = [
         { name: 'Project6', technologies: ['Block Chain', 'Python', 'Jquery'] }
       ]
     },
-    // {
-    //   name: 'Ravi Varanasi',
-    //   email: 'manager.name@ggktech.com',
-    //   role: 'Manager',
-    //   location: 'Uppal',
-    //   projects: [
-    //     { name: 'Project1', technologies: ['Angular 2', 'Javascript', 'Angular Js', '.NET', 'C#'] },
-    //     { name: 'Project2', technologies: ['.NET', 'C#', 'Angular Js'] }
-    //   ]
-    // },
-    // {
-    //   name: 'Chaitanya',
-    //   email: 'manager.name@ggktech.com',
-    //   role: 'Manager',
-    //   location: 'Uppal',
-    //   projects: [
-    //     { name: 'Project1', technologies: ['Ruby', 'Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql'] },
-    //     { name: 'Project2', technologies: ['Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'React Js', 'Material UI'] },
-    //     { name: 'Project3', technologies: ['Python', 'Django', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'SQL'] },
-    //     { name: 'Project4', technologies: ['Node Js', 'AWS', 'Jquery', 'Javascript', 'Php', 'Ajax', 'XML', 'SQL', 'C#', '.NET'] },
-    //     { name: 'Project5', technologies: ['Angular 2', 'Java', 'Spring', 'Hadoop', 'Machine Learning', 'R', 'Numpy'] },
-    //     { name: 'Project6', technologies: ['Block Chain', 'Python', 'Jquery'] }
-    //   ]
-    // },
-    // {
-    //   name: 'Praveen',
-    //   email: 'manager.name@ggktech.com',
-    //   role: 'Manager',
-    //   location: 'Waverock',
-    //   projects: [
-    //     { name: 'Project1', technologies: ['Ruby', 'Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql'] },
-    //     { name: 'Project2', technologies: ['Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'React Js', 'Material UI'] },
-    //     { name: 'Project3', technologies: ['Python', 'Django', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'SQL'] },
-    //     { name: 'Project4', technologies: ['Node Js', 'AWS', 'Jquery', 'Javascript', 'Php', 'Ajax', 'XML', 'SQL', 'C#', '.NET'] },
-    //     { name: 'Project5', technologies: ['Angular 2', 'Java', 'Spring', 'Hadoop', 'Machine Learning', 'R', 'Numpy'] },
-    //     { name: 'Project6', technologies: ['Block Chain', 'Python', 'Jquery'] }
-    //   ]
-    // },
-    // {
-    //   name: 'Utkarsh',
-    //   email: 'manager.name@ggktech.com',
-    //   role: 'Associate Manager',
-    //   location: 'Uppal',
-    //   projects: [
-    //     { name: 'Project1', technologies: ['Ruby', 'Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql'] },
-    //     { name: 'Project2', technologies: ['Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'React Js', 'Material UI'] },
-    //     { name: 'Project3', technologies: ['Python', 'Django', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'SQL'] },
-    //     { name: 'Project4', technologies: ['Node Js', 'AWS', 'Jquery', 'Javascript', 'Php', 'Ajax', 'XML', 'SQL', 'C#', '.NET'] },
-    //     { name: 'Project5', technologies: ['Angular 2', 'Java', 'Spring', 'Hadoop', 'Machine Learning', 'R', 'Numpy'] },
-    //     { name: 'Project6', technologies: ['Block Chain', 'Python', 'Jquery'] }
-    //   ]
-    // },
-    // {
-    //   name: 'Avinash',
-    //   email: 'manager.name@ggktech.com',
-    //   role: 'Senior Manager',
-    //   location: 'Uppal',
-    //   projects: [
-    //     { name: 'Project1', technologies: ['Ruby', 'Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql'] },
-    //     { name: 'Project2', technologies: ['Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'React Js', 'Material UI'] },
-    //     { name: 'Project3', technologies: ['Python', 'Django', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'SQL'] },
-    //     { name: 'Project4', technologies: ['Node Js', 'AWS', 'Jquery', 'Javascript', 'Php', 'Ajax', 'XML', 'SQL', 'C#', '.NET'] },
-    //     { name: 'Project5', technologies: ['Angular 2', 'Java', 'Spring', 'Hadoop', 'Machine Learning', 'R', 'Numpy'] },
-    //     { name: 'Project6', technologies: ['Block Chain', 'Python', 'Jquery'] }
-    //   ]
-    // },
-    // {
-    //   name: 'Ashok',
-    //   email: 'manager.name@ggktech.com',
-    //   role: 'Associate Manager',
-    //   location: 'Waverock',
-    //   projects: [
-    //     { name: 'Project1', technologies: ['Ruby', 'Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql'] },
-    //     { name: 'Project2', technologies: ['Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'React Js', 'Material UI'] },
-    //     { name: 'Project3', technologies: ['Python', 'Django', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'SQL'] },
-    //     { name: 'Project4', technologies: ['Node Js', 'AWS', 'Jquery', 'Javascript', 'Php', 'Ajax', 'XML', 'SQL', 'C#', '.NET'] },
-    //     { name: 'Project5', technologies: ['Angular 2', 'Java', 'Spring', 'Hadoop', 'Machine Learning', 'R', 'Numpy'] },
-    //     { name: 'Project6', technologies: ['Block Chain', 'Python', 'Jquery'] }
-    //   ]
-    // },
-    // {
-    //   name: 'Shivam',
-    //   email: 'manager.name@ggktech.com',
-    //   role: 'Associate Manager',
-    //   location: 'Waverock',
-    //   projects: [
-    //     { name: 'Project1', technologies: ['Ruby', 'Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql'] },
-    //     { name: 'Project2', technologies: ['Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'React Js', 'Material UI'] },
-    //     { name: 'Project3', technologies: ['Python', 'Django', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'SQL'] },
-    //     { name: 'Project4', technologies: ['Node Js', 'AWS', 'Jquery', 'Javascript', 'Php', 'Ajax', 'XML', 'SQL', 'C#', '.NET'] },
-    //     { name: 'Project5', technologies: ['Angular 2', 'Java', 'Spring', 'Hadoop', 'Machine Learning', 'R', 'Numpy'] },
-    //     { name: 'Project6', technologies: ['Block Chain', 'Python', 'Jquery'] }
-    //   ]
-    // },
-    // {
-    //   name: 'Srinivas',
-    //   email: 'manager.name@ggktech.com',
-    //   role: 'Senior Manager',
-    //   location: 'Uppal',
-    //   projects: [
-    //     { name: 'Project1', technologies: ['Ruby', 'Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql'] },
-    //     { name: 'Project2', technologies: ['Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'React Js', 'Material UI'] },
-    //     { name: 'Project3', technologies: ['Python', 'Django', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'SQL'] },
-    //     { name: 'Project4', technologies: ['Node Js', 'AWS', 'Jquery', 'Javascript', 'Php', 'Ajax', 'XML', 'SQL', 'C#', '.NET'] },
-    //     { name: 'Project5', technologies: ['Angular 2', 'Java', 'Spring', 'Hadoop', 'Machine Learning', 'R', 'Numpy'] },
-    //     { name: 'Project6', technologies: ['Block Chain', 'Python', 'Jquery'] }
-    //   ]
-    // },
-    // {
-    //   name: 'Rajesh',
-    //   email: 'manager.name@ggktech.com',
-    //   role: 'Manager',
-    //   location: 'Uppal',
-    //   projects: [
-    //     { name: 'Project1', technologies: ['Ruby', 'Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql'] },
-    //     { name: 'Project2', technologies: ['Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'React Js', 'Material UI'] },
-    //     { name: 'Project3', technologies: ['Python', 'Django', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'SQL'] },
-    //     { name: 'Project4', technologies: ['Node Js', 'AWS', 'Jquery', 'Javascript', 'Php', 'Ajax', 'XML', 'SQL', 'C#', '.NET'] },
-    //     { name: 'Project5', technologies: ['Angular 2', 'Java', 'Spring', 'Hadoop', 'Machine Learning', 'R', 'Numpy'] },
-    //     { name: 'Project6', technologies: ['Block Chain', 'Python', 'Jquery'] }
-    //   ]
-    // },
-    // {
-    //   name: 'Kishore Ithadi',
-    //   email: 'manager.name@ggktech.com',
-    //   role: 'Associate Manager',
-    //   location: 'Waverock',
-    //   projects: [
-    //     { name: 'Project1', technologies: ['Ruby', 'Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql'] },
-    //     { name: 'Project2', technologies: ['Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'React Js', 'Material UI'] },
-    //     { name: 'Project3', technologies: ['Python', 'Django', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'SQL'] },
-    //     { name: 'Project4', technologies: ['Node Js', 'AWS', 'Jquery', 'Javascript', 'Php', 'Ajax', 'XML', 'SQL', 'C#', '.NET'] },
-    //     { name: 'Project5', technologies: ['Angular 2', 'Java', 'Spring', 'Hadoop', 'Machine Learning', 'R', 'Numpy'] },
-    //     { name: 'Project6', technologies: ['Block Chain', 'Python', 'Jquery'] }
-    //   ]
-    // },
-    // {
-    //   name: 'Soumya',
-    //   email: 'manager.name@ggktech.com',
-    //   role: 'Associate Manager',
-    //   location: 'Waverock',
-    //   projects: [
-    //     { name: 'Project1', technologies: ['Ruby', 'Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql'] },
-    //     { name: 'Project2', technologies: ['Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'React Js', 'Material UI'] },
-    //     { name: 'Project3', technologies: ['Python', 'Django', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'SQL'] },
-    //     { name: 'Project4', technologies: ['Node Js', 'AWS', 'Jquery', 'Javascript', 'Php', 'Ajax', 'XML', 'SQL', 'C#', '.NET'] },
-    //     { name: 'Project5', technologies: ['Angular 2', 'Java', 'Spring', 'Hadoop', 'Machine Learning', 'R', 'Numpy'] },
-    //     { name: 'Project6', technologies: ['Block Chain', 'Python', 'Jquery'] }
-    //   ]
-    // },
-    // {
-    //   name: 'Praveen Gujarathi',
-    //   email: 'manager.name@ggktech.com',
-    //   role: 'Senior Manager',
-    //   location: 'Uppal',
-    //   projects: [
-    //     { name: 'Project1', technologies: ['Ruby', 'Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql'] },
-    //     { name: 'Project2', technologies: ['Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'React Js', 'Material UI'] },
-    //     { name: 'Project3', technologies: ['Python', 'Django', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'SQL'] },
-    //     { name: 'Project4', technologies: ['Node Js', 'AWS', 'Jquery', 'Javascript', 'Php', 'Ajax', 'XML', 'SQL', 'C#', '.NET'] },
-    //     { name: 'Project5', technologies: ['Angular 2', 'Java', 'Spring', 'Hadoop', 'Machine Learning', 'R', 'Numpy'] },
-    //     { name: 'Project6', technologies: ['Block Chain', 'Python', 'Jquery'] }
-    //   ]
-    // },
-    // {
-    //   name: 'Vinoth Raju',
-    //   email: 'manager.name@ggktech.com',
-    //   role: 'Senior Manager',
-    //   location: 'Uppal',
-    //   projects: [
-    //     { name: 'Project1', technologies: ['Ruby', 'Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql'] },
-    //     { name: 'Project2', technologies: ['Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'React Js', 'Material UI'] },
-    //     { name: 'Project3', technologies: ['Python', 'Django', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'SQL'] },
-    //     { name: 'Project4', technologies: ['Node Js', 'AWS', 'Jquery', 'Javascript', 'Php', 'Ajax', 'XML', 'SQL', 'C#', '.NET'] },
-    //     { name: 'Project5', technologies: ['Angular 2', 'Java', 'Spring', 'Hadoop', 'Machine Learning', 'R', 'Numpy'] },
-    //     { name: 'Project6', technologies: ['Block Chain', 'Python', 'Jquery'] }
-    //   ]
-    // },
-    // {
-    //   name: 'David',
-    //   email: 'manager.name@ggktech.com',
-    //   role: 'Associate Manager',
-    //   location: 'Waverock',
-    //   projects: [
-    //     { name: 'Project1', technologies: ['Ruby', 'Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql'] },
-    //     { name: 'Project2', technologies: ['Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'React Js', 'Material UI'] },
-    //     { name: 'Project3', technologies: ['Python', 'Django', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'SQL'] },
-    //     { name: 'Project4', technologies: ['Node Js', 'AWS', 'Jquery', 'Javascript', 'Php', 'Ajax', 'XML', 'SQL', 'C#', '.NET'] },
-    //     { name: 'Project5', technologies: ['Angular 2', 'Java', 'Spring', 'Hadoop', 'Machine Learning', 'R', 'Numpy'] },
-    //     { name: 'Project6', technologies: ['Block Chain', 'Python', 'Jquery'] }
-    //   ]
-    // },
-    // {
-    //   name: 'Shanthi',
-    //   email: 'manager.name@ggktech.com',
-    //   role: 'Senior Manager',
-    //   location: 'Uppal',
-    //   projects: [
-    //     { name: 'Project1', technologies: ['Ruby', 'Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql'] },
-    //     { name: 'Project2', technologies: ['Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'React Js', 'Material UI'] },
-    //     { name: 'Project3', technologies: ['Python', 'Django', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'SQL'] },
-    //     { name: 'Project4', technologies: ['Node Js', 'AWS', 'Jquery', 'Javascript', 'Php', 'Ajax', 'XML', 'SQL', 'C#', '.NET'] },
-    //     { name: 'Project5', technologies: ['Angular 2', 'Java', 'Spring', 'Hadoop', 'Machine Learning', 'R', 'Numpy'] },
-    //     { name: 'Project6', technologies: ['Block Chain', 'Python', 'Jquery'] }
-    //   ]
-    // },
-    // {
-    //   name: 'Amith',
-    //   email: 'manager.name@ggktech.com',
-    //   role: 'Senior Manager',
-    //   location: 'Uppal',
-    //   projects: [
-    //     { name: 'Project1', technologies: ['Ruby', 'Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql'] },
-    //     { name: 'Project2', technologies: ['Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'React Js', 'Material UI'] },
-    //     { name: 'Project3', technologies: ['Python', 'Django', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'SQL'] },
-    //     { name: 'Project4', technologies: ['Node Js', 'AWS', 'Jquery', 'Javascript', 'Php', 'Ajax', 'XML', 'SQL', 'C#', '.NET'] },
-    //     { name: 'Project5', technologies: ['Angular 2', 'Java', 'Spring', 'Hadoop', 'Machine Learning', 'R', 'Numpy'] },
-    //     { name: 'Project6', technologies: ['Block Chain', 'Python', 'Jquery'] }
-    //   ]
-    // },
-    // {
-    //   name: 'Shashi Ranjan',
-    //   email: 'manager.name@ggktech.com',
-    //   role: 'Associate Manager',
-    //   location: 'Waverock',
-    //   projects: [
-    //     { name: 'Project1', technologies: ['Ruby', 'Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql'] },
-    //     { name: 'Project2', technologies: ['Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'React Js', 'Material UI'] },
-    //     { name: 'Project3', technologies: ['Python', 'Django', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'SQL'] },
-    //     { name: 'Project4', technologies: ['Node Js', 'AWS', 'Jquery', 'Javascript', 'Php', 'Ajax', 'XML', 'SQL', 'C#', '.NET'] },
-    //     { name: 'Project5', technologies: ['Angular 2', 'Java', 'Spring', 'Hadoop', 'Machine Learning', 'R', 'Numpy'] },
-    //     { name: 'Project6', technologies: ['Block Chain', 'Python', 'Jquery'] }
-    //   ]
-    // },
-    // {
-    //   name: 'Srilaxmi',
-    //   email: 'manager.name@ggktech.com',
-    //   role: 'Associate Manager',
-    //   location: 'Waverock',
-    //   projects: [
-    //     { name: 'Project1', technologies: ['Ruby', 'Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql'] },
-    //     { name: 'Project2', technologies: ['Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'React Js', 'Material UI'] },
-    //     { name: 'Project3', technologies: ['Python', 'Django', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'SQL'] },
-    //     { name: 'Project4', technologies: ['Node Js', 'AWS', 'Jquery', 'Javascript', 'Php', 'Ajax', 'XML', 'SQL', 'C#', '.NET'] },
-    //     { name: 'Project5', technologies: ['Angular 2', 'Java', 'Spring', 'Hadoop', 'Machine Learning', 'R', 'Numpy'] },
-    //     { name: 'Project6', technologies: ['Block Chain', 'Python', 'Jquery'] }
-    //   ]
-    // },
-    // {
-    //   name: 'Rohan',
-    //   email: 'manager.name@ggktech.com',
-    //   role: 'Manager',
-    //   location: 'Uppal',
-    //   projects: [
-    //     { name: 'Project1', technologies: ['Ruby', 'Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql'] },
-    //     { name: 'Project2', technologies: ['Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'React Js', 'Material UI'] },
-    //     { name: 'Project3', technologies: ['Python', 'Django', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'SQL'] },
-    //     { name: 'Project4', technologies: ['Node Js', 'AWS', 'Jquery', 'Javascript', 'Php', 'Ajax', 'XML', 'SQL', 'C#', '.NET'] },
-    //     { name: 'Project5', technologies: ['Angular 2', 'Java', 'Spring', 'Hadoop', 'Machine Learning', 'R', 'Numpy'] },
-    //     { name: 'Project6', technologies: ['Block Chain', 'Python', 'Jquery'] }
-    //   ]
-    // },
-    // {
-    //   name: 'Harshika',
-    //   email: 'manager.name@ggktech.com',
-    //   role: 'Manager',
-    //   location: 'Uppal',
-    //   projects: [
-    //     { name: 'Project1', technologies: ['Ruby', 'Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql'] },
-    //     { name: 'Project2', technologies: ['Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'React Js', 'Material UI'] },
-    //     { name: 'Project3', technologies: ['Python', 'Django', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'SQL'] },
-    //     { name: 'Project4', technologies: ['Node Js', 'AWS', 'Jquery', 'Javascript', 'Php', 'Ajax', 'XML', 'SQL', 'C#', '.NET'] },
-    //     { name: 'Project5', technologies: ['Angular 2', 'Java', 'Spring', 'Hadoop', 'Machine Learning', 'R', 'Numpy'] },
-    //     { name: 'Project6', technologies: ['Block Chain', 'Python', 'Jquery'] }
-    //   ]
-    // },
-    // {
-    //   name: 'Muthu Ramalingam',
-    //   email: 'manager.name@ggktech.com',
-    //   role: 'Senior Manager',
-    //   location: 'Uppal',
-    //   projects: [
-    //     { name: 'Project1', technologies: ['Ruby', 'Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql'] },
-    //     { name: 'Project2', technologies: ['Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'React Js', 'Material UI'] },
-    //     { name: 'Project3', technologies: ['Python', 'Django', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'SQL'] },
-    //     { name: 'Project4', technologies: ['Node Js', 'AWS', 'Jquery', 'Javascript', 'Php', 'Ajax', 'XML', 'SQL', 'C#', '.NET'] },
-    //     { name: 'Project5', technologies: ['Angular 2', 'Java', 'Spring', 'Hadoop', 'Machine Learning', 'R', 'Numpy'] },
-    //     { name: 'Project6', technologies: ['Block Chain', 'Python', 'Jquery'] }
-    //   ]
-    // },
-    // {
-    //   name: 'Raghav',
-    //   email: 'manager.name@ggktech.com',
-    //   role: 'Senior Manager',
-    //   location: 'Uppal',
-    //   projects: [
-    //     { name: 'Project1', technologies: ['Ruby', 'Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql'] },
-    //     { name: 'Project2', technologies: ['Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'React Js', 'Material UI'] },
-    //     { name: 'Project3', technologies: ['Python', 'Django', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'SQL'] },
-    //     { name: 'Project4', technologies: ['Node Js', 'AWS', 'Jquery', 'Javascript', 'Php', 'Ajax', 'XML', 'SQL', 'C#', '.NET'] },
-    //     { name: 'Project5', technologies: ['Angular 2', 'Java', 'Spring', 'Hadoop', 'Machine Learning', 'R', 'Numpy'] },
-    //     { name: 'Project6', technologies: ['Block Chain', 'Python', 'Jquery'] }
-    //   ]
-    // },
-    // {
-    //   name: 'Vivek Kumar',
-    //   email: 'manager.name@ggktech.com',
-    //   role: 'Manager',
-    //   location: 'Uppal',
-    //   projects: [
-    //     { name: 'Project1', technologies: ['Ruby', 'Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql'] },
-    //     { name: 'Project2', technologies: ['Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'React Js', 'Material UI'] },
-    //     { name: 'Project3', technologies: ['Python', 'Django', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'SQL'] },
-    //     { name: 'Project4', technologies: ['Node Js', 'AWS', 'Jquery', 'Javascript', 'Php', 'Ajax', 'XML', 'SQL', 'C#', '.NET'] },
-    //     { name: 'Project5', technologies: ['Angular 2', 'Java', 'Spring', 'Hadoop', 'Machine Learning', 'R', 'Numpy'] },
-    //     { name: 'Project6', technologies: ['Block Chain', 'Python', 'Jquery'] }
-    //   ]
-    // },
-    // {
-    //   name: 'Raghu',
-    //   email: 'manager.name@ggktech.com',
-    //   role: 'Senior Manager',
-    //   location: 'Uppal',
-    //   projects: [
-    //     { name: 'Project1', technologies: ['Ruby', 'Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql'] },
-    //     { name: 'Project2', technologies: ['Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'React Js', 'Material UI'] },
-    //     { name: 'Project3', technologies: ['Python', 'Django', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'SQL'] },
-    //     { name: 'Project4', technologies: ['Node Js', 'AWS', 'Jquery', 'Javascript', 'Php', 'Ajax', 'XML', 'SQL', 'C#', '.NET'] },
-    //     { name: 'Project5', technologies: ['Angular 2', 'Java', 'Spring', 'Hadoop', 'Machine Learning', 'R', 'Numpy'] },
-    //     { name: 'Project6', technologies: ['Block Chain', 'Python', 'Jquery'] }
-    //   ]
-    // },
-    // {
-    //   name: 'San Reddy',
-    //   email: 'manager.name@ggktech.com',
-    //   role: 'Senior Manager',
-    //   location: 'Uppal',
-    //   projects: [
-    //     { name: 'Project1', technologies: ['Ruby', 'Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql'] },
-    //     { name: 'Project2', technologies: ['Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'React Js', 'Material UI'] },
-    //     { name: 'Project3', technologies: ['Python', 'Django', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'SQL'] },
-    //     { name: 'Project4', technologies: ['Node Js', 'AWS', 'Jquery', 'Javascript', 'Php', 'Ajax', 'XML', 'SQL', 'C#', '.NET'] },
-    //     { name: 'Project5', technologies: ['Angular 2', 'Java', 'Spring', 'Hadoop', 'Machine Learning', 'R', 'Numpy'] },
-    //     { name: 'Project6', technologies: ['Block Chain', 'Python', 'Jquery'] }
-    //   ]
-    // },
-    // {
-    //   name: 'Ravinder konyala',
-    //   email: 'manager.name@ggktech.com',
-    //   role: 'Senior Manager',
-    //   location: 'Waverock',
-    //   projects: [
-    //     { name: 'Project1', technologies: ['Ruby', 'Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql'] },
-    //     { name: 'Project2', technologies: ['Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'React Js', 'Material UI'] },
-    //     { name: 'Project3', technologies: ['Python', 'Django', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'SQL'] },
-    //     { name: 'Project4', technologies: ['Node Js', 'AWS', 'Jquery', 'Javascript', 'Php', 'Ajax', 'XML', 'SQL', 'C#', '.NET'] },
-    //     { name: 'Project5', technologies: ['Angular 2', 'Java', 'Spring', 'Hadoop', 'Machine Learning', 'R', 'Numpy'] },
-    //     { name: 'Project6', technologies: ['Block Chain', 'Python', 'Jquery'] }
-    //   ]
-    // },
-    // {
-    //   name: 'Shwetha',
-    //   email: 'manager.name@ggktech.com',
-    //   role: 'Senior Manager',
-    //   location: 'Waverock',
-    //   projects: [
-    //     { name: 'Project1', technologies: ['Ruby', 'Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql'] },
-    //     { name: 'Project2', technologies: ['Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'React Js', 'Material UI'] },
-    //     { name: 'Project3', technologies: ['Python', 'Django', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'SQL'] },
-    //     { name: 'Project4', technologies: ['Node Js', 'AWS', 'Jquery', 'Javascript', 'Php', 'Ajax', 'XML', 'SQL', 'C#', '.NET'] },
-    //     { name: 'Project5', technologies: ['Angular 2', 'Java', 'Spring', 'Hadoop', 'Machine Learning', 'R', 'Numpy'] },
-    //     { name: 'Project6', technologies: ['Block Chain', 'Python', 'Jquery'] }
-    //   ]
-    // },
-    // {
-    //   name: 'Bhavik',
-    //   email: 'manager.name@ggktech.com',
-    //   role: 'Senior Manager',
-    //   location: 'Uppal',
-    //   projects: [
-    //     { name: 'Project1', technologies: ['Ruby', 'Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql'] },
-    //     { name: 'Project2', technologies: ['Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'React Js', 'Material UI'] },
-    //     { name: 'Project3', technologies: ['Python', 'Django', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'SQL'] },
-    //     { name: 'Project4', technologies: ['Node Js', 'AWS', 'Jquery', 'Javascript', 'Php', 'Ajax', 'XML', 'SQL', 'C#', '.NET'] },
-    //     { name: 'Project5', technologies: ['Angular 2', 'Java', 'Spring', 'Hadoop', 'Machine Learning', 'R', 'Numpy'] },
-    //     { name: 'Project6', technologies: ['Block Chain', 'Python', 'Jquery'] }
-    //   ]
-    // },
-    // {
-    //   name: 'Sravan',
-    //   email: 'manager.name@ggktech.com',
-    //   role: 'Associate Manager',
-    //   location: 'Uppal',
-    //   projects: [
-    //     { name: 'Project1', technologies: ['Ruby', 'Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql'] },
-    //     { name: 'Project2', technologies: ['Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'React Js', 'Material UI'] },
-    //     { name: 'Project3', technologies: ['Python', 'Django', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'SQL'] },
-    //     { name: 'Project4', technologies: ['Node Js', 'AWS', 'Jquery', 'Javascript', 'Php', 'Ajax', 'XML', 'SQL', 'C#', '.NET'] },
-    //     { name: 'Project5', technologies: ['Angular 2', 'Java', 'Spring', 'Hadoop', 'Machine Learning', 'R', 'Numpy'] },
-    //     { name: 'Project6', technologies: ['Block Chain', 'Python', 'Jquery'] }
-    //   ]
-    // },
-    // {
-    //   name: 'Arvin',
-    //   email: 'manager.name@ggktech.com',
-    //   role: 'Senior Manager',
-    //   location: 'Waverock',
-    //   projects: [
-    //     { name: 'Project1', technologies: ['Ruby', 'Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql'] },
-    //     { name: 'Project2', technologies: ['Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'React Js', 'Material UI'] },
-    //     { name: 'Project3', technologies: ['Python', 'Django', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'SQL'] },
-    //     { name: 'Project4', technologies: ['Node Js', 'AWS', 'Jquery', 'Javascript', 'Php', 'Ajax', 'XML', 'SQL', 'C#', '.NET'] },
-    //     { name: 'Project5', technologies: ['Angular 2', 'Java', 'Spring', 'Hadoop', 'Machine Learning', 'R', 'Numpy'] },
-    //     { name: 'Project6', technologies: ['Block Chain', 'Python', 'Jquery'] }
-    //   ]
-    // },
-    // {
-    //   name: 'Vasudeva',
-    //   email: 'manager.name@ggktech.com',
-    //   role: 'Associate Manager',
-    //   location: 'Uppal',
-    //   projects: [
-    //     { name: 'Project1', technologies: ['Ruby', 'Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql'] },
-    //     { name: 'Project2', technologies: ['Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'React Js', 'Material UI'] },
-    //     { name: 'Project3', technologies: ['Python', 'Django', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'SQL'] },
-    //     { name: 'Project4', technologies: ['Node Js', 'AWS', 'Jquery', 'Javascript', 'Php', 'Ajax', 'XML', 'SQL', 'C#', '.NET'] },
-    //     { name: 'Project5', technologies: ['Angular 2', 'Java', 'Spring', 'Hadoop', 'Machine Learning', 'R', 'Numpy'] },
-    //     { name: 'Project6', technologies: ['Block Chain', 'Python', 'Jquery'] }
-    //   ]
-    // },
-    // {
-    //   name: 'Ravi Shankar',
-    //   email: 'manager.name@ggktech.com',
-    //   role: 'Associate Manager',
-    //   location: 'Uppal',
-    //   projects: [
-    //     { name: 'Project1', technologies: ['Ruby', 'Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql'] },
-    //     { name: 'Project2', technologies: ['Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'React Js', 'Material UI'] },
-    //     { name: 'Project3', technologies: ['Python', 'Django', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'SQL'] },
-    //     { name: 'Project4', technologies: ['Node Js', 'AWS', 'Jquery', 'Javascript', 'Php', 'Ajax', 'XML', 'SQL', 'C#', '.NET'] },
-    //     { name: 'Project5', technologies: ['Angular 2', 'Java', 'Spring', 'Hadoop', 'Machine Learning', 'R', 'Numpy'] },
-    //     { name: 'Project6', technologies: ['Block Chain', 'Python', 'Jquery'] }
-    //   ]
-    // },
-    // {
-    //   name: 'Rajesh Gadepalli',
-    //   email: 'manager.name@ggktech.com',
-    //   role: 'Senior Manager',
-    //   location: 'Waverock',
-    //   projects: [
-    //     { name: 'Project1', technologies: ['Ruby', 'Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql'] },
-    //     { name: 'Project2', technologies: ['Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'React Js', 'Material UI'] },
-    //     { name: 'Project3', technologies: ['Python', 'Django', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'SQL'] },
-    //     { name: 'Project4', technologies: ['Node Js', 'AWS', 'Jquery', 'Javascript', 'Php', 'Ajax', 'XML', 'SQL', 'C#', '.NET'] },
-    //     { name: 'Project5', technologies: ['Angular 2', 'Java', 'Spring', 'Hadoop', 'Machine Learning', 'R', 'Numpy'] },
-    //     { name: 'Project6', technologies: ['Block Chain', 'Python', 'Jquery'] }
-    //   ]
-    // },
-    // {
-    //   name: 'Pradeep Pavuluri',
-    //   email: 'manager.name@ggktech.com',
-    //   role: 'Senior Manager',
-    //   location: 'Waverock',
-    //   projects: [
-    //     { name: 'Project1', technologies: ['Ruby', 'Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql'] },
-    //     { name: 'Project2', technologies: ['Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'React Js', 'Material UI'] },
-    //     { name: 'Project3', technologies: ['Python', 'Django', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'SQL'] },
-    //     { name: 'Project4', technologies: ['Node Js', 'AWS', 'Jquery', 'Javascript', 'Php', 'Ajax', 'XML', 'SQL', 'C#', '.NET'] },
-    //     { name: 'Project5', technologies: ['Angular 2', 'Java', 'Spring', 'Hadoop', 'Machine Learning', 'R', 'Numpy'] },
-    //     { name: 'Project6', technologies: ['Block Chain', 'Python', 'Jquery'] }
-    //   ]
-    // },
-    // {
-    //   name: 'Abhishek',
-    //   email: 'manager.name@ggktech.com',
-    //   role: 'Manager',
-    //   location: 'Uppal',
-    //   projects: [
-    //     { name: 'Project1', technologies: ['Ruby', 'Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql'] },
-    //     { name: 'Project2', technologies: ['Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'React Js', 'Material UI'] },
-    //     { name: 'Project3', technologies: ['Python', 'Django', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'SQL'] },
-    //     { name: 'Project4', technologies: ['Node Js', 'AWS', 'Jquery', 'Javascript', 'Php', 'Ajax', 'XML', 'SQL', 'C#', '.NET'] },
-    //     { name: 'Project5', technologies: ['Angular 2', 'Java', 'Spring', 'Hadoop', 'Machine Learning', 'R', 'Numpy'] },
-    //     { name: 'Project6', technologies: ['Block Chain', 'Python', 'Jquery'] }
-    //   ]
-    // },
-    // {
-    //   name: 'Sudheer',
-    //   email: 'manager.name@ggktech.com',
-    //   role: 'Manager',
-    //   location: 'Uppal',
-    //   projects: [
-    //     { name: 'Project1', technologies: ['Ruby', 'Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql'] },
-    //     { name: 'Project2', technologies: ['Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'React Js', 'Material UI'] },
-    //     { name: 'Project3', technologies: ['Python', 'Django', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'SQL'] },
-    //     { name: 'Project4', technologies: ['Node Js', 'AWS', 'Jquery', 'Javascript', 'Php', 'Ajax', 'XML', 'SQL', 'C#', '.NET'] },
-    //     { name: 'Project5', technologies: ['Angular 2', 'Java', 'Spring', 'Hadoop', 'Machine Learning', 'R', 'Numpy'] },
-    //     { name: 'Project6', technologies: ['Block Chain', 'Python', 'Jquery'] }
-    //   ]
-    // },
-    // {
-    //   name: 'kalyan',
-    //   email: 'manager.name@ggktech.com',
-    //   role: 'Manager',
-    //   location: 'Uppal',
-    //   projects: [
-    //     { name: 'Project1', technologies: ['Ruby', 'Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql'] },
-    //     { name: 'Project2', technologies: ['Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'React Js', 'Material UI'] },
-    //     { name: 'Project3', technologies: ['Python', 'Django', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'SQL'] },
-    //     { name: 'Project4', technologies: ['Node Js', 'AWS', 'Jquery', 'Javascript', 'Php', 'Ajax', 'XML', 'SQL', 'C#', '.NET'] },
-    //     { name: 'Project5', technologies: ['Angular 2', 'Java', 'Spring', 'Hadoop', 'Machine Learning', 'R', 'Numpy'] },
-    //     { name: 'Project6', technologies: ['Block Chain', 'Python', 'Jquery'] }
-    //   ]
-    // },
-    // {
-    //   name: 'Arun',
-    //   email: 'manager.name@ggktech.com',
-    //   role: 'Senior Manager',
-    //   location: 'Waverock',
-    //   projects: [
-    //     { name: 'Project1', technologies: ['Ruby', 'Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql'] },
-    //     { name: 'Project2', technologies: ['Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'React Js', 'Material UI'] },
-    //     { name: 'Project3', technologies: ['Python', 'Django', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'SQL'] },
-    //     { name: 'Project4', technologies: ['Node Js', 'AWS', 'Jquery', 'Javascript', 'Php', 'Ajax', 'XML', 'SQL', 'C#', '.NET'] },
-    //     { name: 'Project5', technologies: ['Angular 2', 'Java', 'Spring', 'Hadoop', 'Machine Learning', 'R', 'Numpy'] },
-    //     { name: 'Project6', technologies: ['Block Chain', 'Python', 'Jquery'] }
-    //   ]
-    // },
-    // {
-    //   name: 'Venkatadhri Davu',
-    //   email: 'manager.name@ggktech.com',
-    //   role: 'Manager',
-    //   location: 'Waverock',
-    //   projects: [
-    //     { name: 'Project1', technologies: ['Ruby', 'Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql'] },
-    //     { name: 'Project2', technologies: ['Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'React Js', 'Material UI'] },
-    //     { name: 'Project3', technologies: ['Python', 'Django', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'SQL'] },
-    //     { name: 'Project4', technologies: ['Node Js', 'AWS', 'Jquery', 'Javascript', 'Php', 'Ajax', 'XML', 'SQL', 'C#', '.NET'] },
-    //     { name: 'Project5', technologies: ['Angular 2', 'Java', 'Spring', 'Hadoop', 'Machine Learning', 'R', 'Numpy'] },
-    //     { name: 'Project6', technologies: ['Block Chain', 'Python', 'Jquery'] }
-    //   ]
-    // },
-    // {
-    //   name: 'Anuradha',
-    //   email: 'manager.name@ggktech.com',
-    //   role: 'Manager',
-    //   location: 'Waverock',
-    //   projects: [
-    //     { name: 'Project1', technologies: ['Ruby', 'Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql'] },
-    //     { name: 'Project2', technologies: ['Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'React Js', 'Material UI'] },
-    //     { name: 'Project3', technologies: ['Python', 'Django', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'SQL'] },
-    //     { name: 'Project4', technologies: ['Node Js', 'AWS', 'Jquery', 'Javascript', 'Php', 'Ajax', 'XML', 'SQL', 'C#', '.NET'] },
-    //     { name: 'Project5', technologies: ['Angular 2', 'Java', 'Spring', 'Hadoop', 'Machine Learning', 'R', 'Numpy'] },
-    //     { name: 'Project6', technologies: ['Block Chain', 'Python', 'Jquery'] }
-    //   ]
-    // },
-    // {
-    //   name: 'Shivam Yadav',
-    //   email: 'manager.name@ggktech.com',
-    //   role: 'Associate Manager',
-    //   location: 'Uppal',
-    //   projects: [
-    //     { name: 'Auto.com', technologies: ['Ruby', 'React Js', 'CSS', 'Html', 'Slim', 'Postgresql', 'Node Js', 'Typescript'] },
-    //     { name: 'Milestone Groups', technologies: ['Java', 'Spring'] }
-    //   ]
-    // }
+    {
+      name: 'Ravi Varanasi',
+      email: 'manager.name@ggktech.com',
+      role: 'Manager',
+      location: 'Uppal',
+      projects: [
+        { name: 'Project1', technologies: ['Angular 2', 'Javascript', 'Angular Js', '.NET', 'C#'] },
+        { name: 'Project2', technologies: ['.NET', 'C#', 'Angular Js'] }
+      ]
+    },
+    {
+      name: 'Chaitanya',
+      email: 'manager.name@ggktech.com',
+      role: 'Manager',
+      location: 'Uppal',
+      projects: [
+        { name: 'Project1', technologies: ['Ruby', 'Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql'] },
+        { name: 'Project2', technologies: ['Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'React Js', 'Material UI'] },
+        { name: 'Project3', technologies: ['Python', 'Django', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'SQL'] },
+        { name: 'Project4', technologies: ['Node Js', 'AWS', 'Jquery', 'Javascript', 'Php', 'Ajax', 'XML', 'SQL', 'C#', '.NET'] },
+        { name: 'Project5', technologies: ['Angular 2', 'Java', 'Spring', 'Hadoop', 'Machine Learning', 'R', 'Numpy'] },
+        { name: 'Project6', technologies: ['Block Chain', 'Python', 'Jquery'] }
+      ]
+    },
+    {
+      name: 'Praveen',
+      email: 'manager.name@ggktech.com',
+      role: 'Manager',
+      location: 'Waverock',
+      projects: [
+        { name: 'Project1', technologies: ['Ruby', 'Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql'] },
+        { name: 'Project2', technologies: ['Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'React Js', 'Material UI'] },
+        { name: 'Project3', technologies: ['Python', 'Django', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'SQL'] },
+        { name: 'Project4', technologies: ['Node Js', 'AWS', 'Jquery', 'Javascript', 'Php', 'Ajax', 'XML', 'SQL', 'C#', '.NET'] },
+        { name: 'Project5', technologies: ['Angular 2', 'Java', 'Spring', 'Hadoop', 'Machine Learning', 'R', 'Numpy'] },
+        { name: 'Project6', technologies: ['Block Chain', 'Python', 'Jquery'] }
+      ]
+    },
+    {
+      name: 'Utkarsh',
+      email: 'manager.name@ggktech.com',
+      role: 'Associate Manager',
+      location: 'Uppal',
+      projects: [
+        { name: 'Project1', technologies: ['Ruby', 'Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql'] },
+        { name: 'Project2', technologies: ['Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'React Js', 'Material UI'] },
+        { name: 'Project3', technologies: ['Python', 'Django', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'SQL'] },
+        { name: 'Project4', technologies: ['Node Js', 'AWS', 'Jquery', 'Javascript', 'Php', 'Ajax', 'XML', 'SQL', 'C#', '.NET'] },
+        { name: 'Project5', technologies: ['Angular 2', 'Java', 'Spring', 'Hadoop', 'Machine Learning', 'R', 'Numpy'] },
+        { name: 'Project6', technologies: ['Block Chain', 'Python', 'Jquery'] }
+      ]
+    },
+    {
+      name: 'Avinash',
+      email: 'manager.name@ggktech.com',
+      role: 'Senior Manager',
+      location: 'Uppal',
+      projects: [
+        { name: 'Project1', technologies: ['Ruby', 'Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql'] },
+        { name: 'Project2', technologies: ['Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'React Js', 'Material UI'] },
+        { name: 'Project3', technologies: ['Python', 'Django', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'SQL'] },
+        { name: 'Project4', technologies: ['Node Js', 'AWS', 'Jquery', 'Javascript', 'Php', 'Ajax', 'XML', 'SQL', 'C#', '.NET'] },
+        { name: 'Project5', technologies: ['Angular 2', 'Java', 'Spring', 'Hadoop', 'Machine Learning', 'R', 'Numpy'] },
+        { name: 'Project6', technologies: ['Block Chain', 'Python', 'Jquery'] }
+      ]
+    },
+    {
+      name: 'Ashok',
+      email: 'manager.name@ggktech.com',
+      role: 'Associate Manager',
+      location: 'Waverock',
+      projects: [
+        { name: 'Project1', technologies: ['Ruby', 'Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql'] },
+        { name: 'Project2', technologies: ['Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'React Js', 'Material UI'] },
+        { name: 'Project3', technologies: ['Python', 'Django', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'SQL'] },
+        { name: 'Project4', technologies: ['Node Js', 'AWS', 'Jquery', 'Javascript', 'Php', 'Ajax', 'XML', 'SQL', 'C#', '.NET'] },
+        { name: 'Project5', technologies: ['Angular 2', 'Java', 'Spring', 'Hadoop', 'Machine Learning', 'R', 'Numpy'] },
+        { name: 'Project6', technologies: ['Block Chain', 'Python', 'Jquery'] }
+      ]
+    },
+    {
+      name: 'Shivam',
+      email: 'manager.name@ggktech.com',
+      role: 'Associate Manager',
+      location: 'Waverock',
+      projects: [
+        { name: 'Project1', technologies: ['Ruby', 'Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql'] },
+        { name: 'Project2', technologies: ['Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'React Js', 'Material UI'] },
+        { name: 'Project3', technologies: ['Python', 'Django', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'SQL'] },
+        { name: 'Project4', technologies: ['Node Js', 'AWS', 'Jquery', 'Javascript', 'Php', 'Ajax', 'XML', 'SQL', 'C#', '.NET'] },
+        { name: 'Project5', technologies: ['Angular 2', 'Java', 'Spring', 'Hadoop', 'Machine Learning', 'R', 'Numpy'] },
+        { name: 'Project6', technologies: ['Block Chain', 'Python', 'Jquery'] }
+      ]
+    },
+    {
+      name: 'Srinivas',
+      email: 'manager.name@ggktech.com',
+      role: 'Senior Manager',
+      location: 'Uppal',
+      projects: [
+        { name: 'Project1', technologies: ['Ruby', 'Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql'] },
+        { name: 'Project2', technologies: ['Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'React Js', 'Material UI'] },
+        { name: 'Project3', technologies: ['Python', 'Django', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'SQL'] },
+        { name: 'Project4', technologies: ['Node Js', 'AWS', 'Jquery', 'Javascript', 'Php', 'Ajax', 'XML', 'SQL', 'C#', '.NET'] },
+        { name: 'Project5', technologies: ['Angular 2', 'Java', 'Spring', 'Hadoop', 'Machine Learning', 'R', 'Numpy'] },
+        { name: 'Project6', technologies: ['Block Chain', 'Python', 'Jquery'] }
+      ]
+    },
+    {
+      name: 'Rajesh',
+      email: 'manager.name@ggktech.com',
+      role: 'Manager',
+      location: 'Uppal',
+      projects: [
+        { name: 'Project1', technologies: ['Ruby', 'Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql'] },
+        { name: 'Project2', technologies: ['Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'React Js', 'Material UI'] },
+        { name: 'Project3', technologies: ['Python', 'Django', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'SQL'] },
+        { name: 'Project4', technologies: ['Node Js', 'AWS', 'Jquery', 'Javascript', 'Php', 'Ajax', 'XML', 'SQL', 'C#', '.NET'] },
+        { name: 'Project5', technologies: ['Angular 2', 'Java', 'Spring', 'Hadoop', 'Machine Learning', 'R', 'Numpy'] },
+        { name: 'Project6', technologies: ['Block Chain', 'Python', 'Jquery'] }
+      ]
+    },
+    {
+      name: 'Kishore Ithadi',
+      email: 'manager.name@ggktech.com',
+      role: 'Associate Manager',
+      location: 'Waverock',
+      projects: [
+        { name: 'Project1', technologies: ['Ruby', 'Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql'] },
+        { name: 'Project2', technologies: ['Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'React Js', 'Material UI'] },
+        { name: 'Project3', technologies: ['Python', 'Django', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'SQL'] },
+        { name: 'Project4', technologies: ['Node Js', 'AWS', 'Jquery', 'Javascript', 'Php', 'Ajax', 'XML', 'SQL', 'C#', '.NET'] },
+        { name: 'Project5', technologies: ['Angular 2', 'Java', 'Spring', 'Hadoop', 'Machine Learning', 'R', 'Numpy'] },
+        { name: 'Project6', technologies: ['Block Chain', 'Python', 'Jquery'] }
+      ]
+    },
+    {
+      name: 'Soumya',
+      email: 'manager.name@ggktech.com',
+      role: 'Associate Manager',
+      location: 'Waverock',
+      projects: [
+        { name: 'Project1', technologies: ['Ruby', 'Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql'] },
+        { name: 'Project2', technologies: ['Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'React Js', 'Material UI'] },
+        { name: 'Project3', technologies: ['Python', 'Django', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'SQL'] },
+        { name: 'Project4', technologies: ['Node Js', 'AWS', 'Jquery', 'Javascript', 'Php', 'Ajax', 'XML', 'SQL', 'C#', '.NET'] },
+        { name: 'Project5', technologies: ['Angular 2', 'Java', 'Spring', 'Hadoop', 'Machine Learning', 'R', 'Numpy'] },
+        { name: 'Project6', technologies: ['Block Chain', 'Python', 'Jquery'] }
+      ]
+    },
+    {
+      name: 'Praveen Gujarathi',
+      email: 'manager.name@ggktech.com',
+      role: 'Senior Manager',
+      location: 'Uppal',
+      projects: [
+        { name: 'Project1', technologies: ['Ruby', 'Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql'] },
+        { name: 'Project2', technologies: ['Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'React Js', 'Material UI'] },
+        { name: 'Project3', technologies: ['Python', 'Django', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'SQL'] },
+        { name: 'Project4', technologies: ['Node Js', 'AWS', 'Jquery', 'Javascript', 'Php', 'Ajax', 'XML', 'SQL', 'C#', '.NET'] },
+        { name: 'Project5', technologies: ['Angular 2', 'Java', 'Spring', 'Hadoop', 'Machine Learning', 'R', 'Numpy'] },
+        { name: 'Project6', technologies: ['Block Chain', 'Python', 'Jquery'] }
+      ]
+    },
+    {
+      name: 'Vinoth Raju',
+      email: 'manager.name@ggktech.com',
+      role: 'Senior Manager',
+      location: 'Uppal',
+      projects: [
+        { name: 'Project1', technologies: ['Ruby', 'Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql'] },
+        { name: 'Project2', technologies: ['Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'React Js', 'Material UI'] },
+        { name: 'Project3', technologies: ['Python', 'Django', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'SQL'] },
+        { name: 'Project4', technologies: ['Node Js', 'AWS', 'Jquery', 'Javascript', 'Php', 'Ajax', 'XML', 'SQL', 'C#', '.NET'] },
+        { name: 'Project5', technologies: ['Angular 2', 'Java', 'Spring', 'Hadoop', 'Machine Learning', 'R', 'Numpy'] },
+        { name: 'Project6', technologies: ['Block Chain', 'Python', 'Jquery'] }
+      ]
+    },
+    {
+      name: 'David',
+      email: 'manager.name@ggktech.com',
+      role: 'Associate Manager',
+      location: 'Waverock',
+      projects: [
+        { name: 'Project1', technologies: ['Ruby', 'Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql'] },
+        { name: 'Project2', technologies: ['Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'React Js', 'Material UI'] },
+        { name: 'Project3', technologies: ['Python', 'Django', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'SQL'] },
+        { name: 'Project4', technologies: ['Node Js', 'AWS', 'Jquery', 'Javascript', 'Php', 'Ajax', 'XML', 'SQL', 'C#', '.NET'] },
+        { name: 'Project5', technologies: ['Angular 2', 'Java', 'Spring', 'Hadoop', 'Machine Learning', 'R', 'Numpy'] },
+        { name: 'Project6', technologies: ['Block Chain', 'Python', 'Jquery'] }
+      ]
+    },
+    {
+      name: 'Shanthi',
+      email: 'manager.name@ggktech.com',
+      role: 'Senior Manager',
+      location: 'Uppal',
+      projects: [
+        { name: 'Project1', technologies: ['Ruby', 'Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql'] },
+        { name: 'Project2', technologies: ['Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'React Js', 'Material UI'] },
+        { name: 'Project3', technologies: ['Python', 'Django', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'SQL'] },
+        { name: 'Project4', technologies: ['Node Js', 'AWS', 'Jquery', 'Javascript', 'Php', 'Ajax', 'XML', 'SQL', 'C#', '.NET'] },
+        { name: 'Project5', technologies: ['Angular 2', 'Java', 'Spring', 'Hadoop', 'Machine Learning', 'R', 'Numpy'] },
+        { name: 'Project6', technologies: ['Block Chain', 'Python', 'Jquery'] }
+      ]
+    },
+    {
+      name: 'Amith',
+      email: 'manager.name@ggktech.com',
+      role: 'Senior Manager',
+      location: 'Uppal',
+      projects: [
+        { name: 'Project1', technologies: ['Ruby', 'Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql'] },
+        { name: 'Project2', technologies: ['Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'React Js', 'Material UI'] },
+        { name: 'Project3', technologies: ['Python', 'Django', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'SQL'] },
+        { name: 'Project4', technologies: ['Node Js', 'AWS', 'Jquery', 'Javascript', 'Php', 'Ajax', 'XML', 'SQL', 'C#', '.NET'] },
+        { name: 'Project5', technologies: ['Angular 2', 'Java', 'Spring', 'Hadoop', 'Machine Learning', 'R', 'Numpy'] },
+        { name: 'Project6', technologies: ['Block Chain', 'Python', 'Jquery'] }
+      ]
+    },
+    {
+      name: 'Shashi Ranjan',
+      email: 'manager.name@ggktech.com',
+      role: 'Associate Manager',
+      location: 'Waverock',
+      projects: [
+        { name: 'Project1', technologies: ['Ruby', 'Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql'] },
+        { name: 'Project2', technologies: ['Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'React Js', 'Material UI'] },
+        { name: 'Project3', technologies: ['Python', 'Django', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'SQL'] },
+        { name: 'Project4', technologies: ['Node Js', 'AWS', 'Jquery', 'Javascript', 'Php', 'Ajax', 'XML', 'SQL', 'C#', '.NET'] },
+        { name: 'Project5', technologies: ['Angular 2', 'Java', 'Spring', 'Hadoop', 'Machine Learning', 'R', 'Numpy'] },
+        { name: 'Project6', technologies: ['Block Chain', 'Python', 'Jquery'] }
+      ]
+    },
+    {
+      name: 'Srilaxmi',
+      email: 'manager.name@ggktech.com',
+      role: 'Associate Manager',
+      location: 'Waverock',
+      projects: [
+        { name: 'Project1', technologies: ['Ruby', 'Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql'] },
+        { name: 'Project2', technologies: ['Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'React Js', 'Material UI'] },
+        { name: 'Project3', technologies: ['Python', 'Django', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'SQL'] },
+        { name: 'Project4', technologies: ['Node Js', 'AWS', 'Jquery', 'Javascript', 'Php', 'Ajax', 'XML', 'SQL', 'C#', '.NET'] },
+        { name: 'Project5', technologies: ['Angular 2', 'Java', 'Spring', 'Hadoop', 'Machine Learning', 'R', 'Numpy'] },
+        { name: 'Project6', technologies: ['Block Chain', 'Python', 'Jquery'] }
+      ]
+    },
+    {
+      name: 'Rohan',
+      email: 'manager.name@ggktech.com',
+      role: 'Manager',
+      location: 'Uppal',
+      projects: [
+        { name: 'Project1', technologies: ['Ruby', 'Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql'] },
+        { name: 'Project2', technologies: ['Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'React Js', 'Material UI'] },
+        { name: 'Project3', technologies: ['Python', 'Django', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'SQL'] },
+        { name: 'Project4', technologies: ['Node Js', 'AWS', 'Jquery', 'Javascript', 'Php', 'Ajax', 'XML', 'SQL', 'C#', '.NET'] },
+        { name: 'Project5', technologies: ['Angular 2', 'Java', 'Spring', 'Hadoop', 'Machine Learning', 'R', 'Numpy'] },
+        { name: 'Project6', technologies: ['Block Chain', 'Python', 'Jquery'] }
+      ]
+    },
+    {
+      name: 'Harshika',
+      email: 'manager.name@ggktech.com',
+      role: 'Manager',
+      location: 'Uppal',
+      projects: [
+        { name: 'Project1', technologies: ['Ruby', 'Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql'] },
+        { name: 'Project2', technologies: ['Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'React Js', 'Material UI'] },
+        { name: 'Project3', technologies: ['Python', 'Django', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'SQL'] },
+        { name: 'Project4', technologies: ['Node Js', 'AWS', 'Jquery', 'Javascript', 'Php', 'Ajax', 'XML', 'SQL', 'C#', '.NET'] },
+        { name: 'Project5', technologies: ['Angular 2', 'Java', 'Spring', 'Hadoop', 'Machine Learning', 'R', 'Numpy'] },
+        { name: 'Project6', technologies: ['Block Chain', 'Python', 'Jquery'] }
+      ]
+    },
+    {
+      name: 'Muthu Ramalingam',
+      email: 'manager.name@ggktech.com',
+      role: 'Senior Manager',
+      location: 'Uppal',
+      projects: [
+        { name: 'Project1', technologies: ['Ruby', 'Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql'] },
+        { name: 'Project2', technologies: ['Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'React Js', 'Material UI'] },
+        { name: 'Project3', technologies: ['Python', 'Django', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'SQL'] },
+        { name: 'Project4', technologies: ['Node Js', 'AWS', 'Jquery', 'Javascript', 'Php', 'Ajax', 'XML', 'SQL', 'C#', '.NET'] },
+        { name: 'Project5', technologies: ['Angular 2', 'Java', 'Spring', 'Hadoop', 'Machine Learning', 'R', 'Numpy'] },
+        { name: 'Project6', technologies: ['Block Chain', 'Python', 'Jquery'] }
+      ]
+    },
+    {
+      name: 'Raghav',
+      email: 'manager.name@ggktech.com',
+      role: 'Senior Manager',
+      location: 'Uppal',
+      projects: [
+        { name: 'Project1', technologies: ['Ruby', 'Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql'] },
+        { name: 'Project2', technologies: ['Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'React Js', 'Material UI'] },
+        { name: 'Project3', technologies: ['Python', 'Django', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'SQL'] },
+        { name: 'Project4', technologies: ['Node Js', 'AWS', 'Jquery', 'Javascript', 'Php', 'Ajax', 'XML', 'SQL', 'C#', '.NET'] },
+        { name: 'Project5', technologies: ['Angular 2', 'Java', 'Spring', 'Hadoop', 'Machine Learning', 'R', 'Numpy'] },
+        { name: 'Project6', technologies: ['Block Chain', 'Python', 'Jquery'] }
+      ]
+    },
+    {
+      name: 'Vivek Kumar',
+      email: 'manager.name@ggktech.com',
+      role: 'Manager',
+      location: 'Uppal',
+      projects: [
+        { name: 'Project1', technologies: ['Ruby', 'Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql'] },
+        { name: 'Project2', technologies: ['Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'React Js', 'Material UI'] },
+        { name: 'Project3', technologies: ['Python', 'Django', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'SQL'] },
+        { name: 'Project4', technologies: ['Node Js', 'AWS', 'Jquery', 'Javascript', 'Php', 'Ajax', 'XML', 'SQL', 'C#', '.NET'] },
+        { name: 'Project5', technologies: ['Angular 2', 'Java', 'Spring', 'Hadoop', 'Machine Learning', 'R', 'Numpy'] },
+        { name: 'Project6', technologies: ['Block Chain', 'Python', 'Jquery'] }
+      ]
+    },
+    {
+      name: 'Raghu',
+      email: 'manager.name@ggktech.com',
+      role: 'Senior Manager',
+      location: 'Uppal',
+      projects: [
+        { name: 'Project1', technologies: ['Ruby', 'Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql'] },
+        { name: 'Project2', technologies: ['Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'React Js', 'Material UI'] },
+        { name: 'Project3', technologies: ['Python', 'Django', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'SQL'] },
+        { name: 'Project4', technologies: ['Node Js', 'AWS', 'Jquery', 'Javascript', 'Php', 'Ajax', 'XML', 'SQL', 'C#', '.NET'] },
+        { name: 'Project5', technologies: ['Angular 2', 'Java', 'Spring', 'Hadoop', 'Machine Learning', 'R', 'Numpy'] },
+        { name: 'Project6', technologies: ['Block Chain', 'Python', 'Jquery'] }
+      ]
+    },
+    {
+      name: 'San Reddy',
+      email: 'manager.name@ggktech.com',
+      role: 'Senior Manager',
+      location: 'Uppal',
+      projects: [
+        { name: 'Project1', technologies: ['Ruby', 'Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql'] },
+        { name: 'Project2', technologies: ['Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'React Js', 'Material UI'] },
+        { name: 'Project3', technologies: ['Python', 'Django', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'SQL'] },
+        { name: 'Project4', technologies: ['Node Js', 'AWS', 'Jquery', 'Javascript', 'Php', 'Ajax', 'XML', 'SQL', 'C#', '.NET'] },
+        { name: 'Project5', technologies: ['Angular 2', 'Java', 'Spring', 'Hadoop', 'Machine Learning', 'R', 'Numpy'] },
+        { name: 'Project6', technologies: ['Block Chain', 'Python', 'Jquery'] }
+      ]
+    },
+    {
+      name: 'Ravinder konyala',
+      email: 'manager.name@ggktech.com',
+      role: 'Senior Manager',
+      location: 'Waverock',
+      projects: [
+        { name: 'Project1', technologies: ['Ruby', 'Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql'] },
+        { name: 'Project2', technologies: ['Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'React Js', 'Material UI'] },
+        { name: 'Project3', technologies: ['Python', 'Django', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'SQL'] },
+        { name: 'Project4', technologies: ['Node Js', 'AWS', 'Jquery', 'Javascript', 'Php', 'Ajax', 'XML', 'SQL', 'C#', '.NET'] },
+        { name: 'Project5', technologies: ['Angular 2', 'Java', 'Spring', 'Hadoop', 'Machine Learning', 'R', 'Numpy'] },
+        { name: 'Project6', technologies: ['Block Chain', 'Python', 'Jquery'] }
+      ]
+    },
+    {
+      name: 'Shwetha',
+      email: 'manager.name@ggktech.com',
+      role: 'Senior Manager',
+      location: 'Waverock',
+      projects: [
+        { name: 'Project1', technologies: ['Ruby', 'Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql'] },
+        { name: 'Project2', technologies: ['Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'React Js', 'Material UI'] },
+        { name: 'Project3', technologies: ['Python', 'Django', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'SQL'] },
+        { name: 'Project4', technologies: ['Node Js', 'AWS', 'Jquery', 'Javascript', 'Php', 'Ajax', 'XML', 'SQL', 'C#', '.NET'] },
+        { name: 'Project5', technologies: ['Angular 2', 'Java', 'Spring', 'Hadoop', 'Machine Learning', 'R', 'Numpy'] },
+        { name: 'Project6', technologies: ['Block Chain', 'Python', 'Jquery'] }
+      ]
+    },
+    {
+      name: 'Bhavik',
+      email: 'manager.name@ggktech.com',
+      role: 'Senior Manager',
+      location: 'Uppal',
+      projects: [
+        { name: 'Project1', technologies: ['Ruby', 'Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql'] },
+        { name: 'Project2', technologies: ['Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'React Js', 'Material UI'] },
+        { name: 'Project3', technologies: ['Python', 'Django', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'SQL'] },
+        { name: 'Project4', technologies: ['Node Js', 'AWS', 'Jquery', 'Javascript', 'Php', 'Ajax', 'XML', 'SQL', 'C#', '.NET'] },
+        { name: 'Project5', technologies: ['Angular 2', 'Java', 'Spring', 'Hadoop', 'Machine Learning', 'R', 'Numpy'] },
+        { name: 'Project6', technologies: ['Block Chain', 'Python', 'Jquery'] }
+      ]
+    },
+    {
+      name: 'Sravan',
+      email: 'manager.name@ggktech.com',
+      role: 'Associate Manager',
+      location: 'Uppal',
+      projects: [
+        { name: 'Project1', technologies: ['Ruby', 'Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql'] },
+        { name: 'Project2', technologies: ['Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'React Js', 'Material UI'] },
+        { name: 'Project3', technologies: ['Python', 'Django', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'SQL'] },
+        { name: 'Project4', technologies: ['Node Js', 'AWS', 'Jquery', 'Javascript', 'Php', 'Ajax', 'XML', 'SQL', 'C#', '.NET'] },
+        { name: 'Project5', technologies: ['Angular 2', 'Java', 'Spring', 'Hadoop', 'Machine Learning', 'R', 'Numpy'] },
+        { name: 'Project6', technologies: ['Block Chain', 'Python', 'Jquery'] }
+      ]
+    },
+    {
+      name: 'Arvin',
+      email: 'manager.name@ggktech.com',
+      role: 'Senior Manager',
+      location: 'Waverock',
+      projects: [
+        { name: 'Project1', technologies: ['Ruby', 'Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql'] },
+        { name: 'Project2', technologies: ['Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'React Js', 'Material UI'] },
+        { name: 'Project3', technologies: ['Python', 'Django', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'SQL'] },
+        { name: 'Project4', technologies: ['Node Js', 'AWS', 'Jquery', 'Javascript', 'Php', 'Ajax', 'XML', 'SQL', 'C#', '.NET'] },
+        { name: 'Project5', technologies: ['Angular 2', 'Java', 'Spring', 'Hadoop', 'Machine Learning', 'R', 'Numpy'] },
+        { name: 'Project6', technologies: ['Block Chain', 'Python', 'Jquery'] }
+      ]
+    },
+    {
+      name: 'Vasudeva',
+      email: 'manager.name@ggktech.com',
+      role: 'Associate Manager',
+      location: 'Uppal',
+      projects: [
+        { name: 'Project1', technologies: ['Ruby', 'Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql'] },
+        { name: 'Project2', technologies: ['Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'React Js', 'Material UI'] },
+        { name: 'Project3', technologies: ['Python', 'Django', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'SQL'] },
+        { name: 'Project4', technologies: ['Node Js', 'AWS', 'Jquery', 'Javascript', 'Php', 'Ajax', 'XML', 'SQL', 'C#', '.NET'] },
+        { name: 'Project5', technologies: ['Angular 2', 'Java', 'Spring', 'Hadoop', 'Machine Learning', 'R', 'Numpy'] },
+        { name: 'Project6', technologies: ['Block Chain', 'Python', 'Jquery'] }
+      ]
+    },
+    {
+      name: 'Ravi Shankar',
+      email: 'manager.name@ggktech.com',
+      role: 'Associate Manager',
+      location: 'Uppal',
+      projects: [
+        { name: 'Project1', technologies: ['Ruby', 'Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql'] },
+        { name: 'Project2', technologies: ['Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'React Js', 'Material UI'] },
+        { name: 'Project3', technologies: ['Python', 'Django', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'SQL'] },
+        { name: 'Project4', technologies: ['Node Js', 'AWS', 'Jquery', 'Javascript', 'Php', 'Ajax', 'XML', 'SQL', 'C#', '.NET'] },
+        { name: 'Project5', technologies: ['Angular 2', 'Java', 'Spring', 'Hadoop', 'Machine Learning', 'R', 'Numpy'] },
+        { name: 'Project6', technologies: ['Block Chain', 'Python', 'Jquery'] }
+      ]
+    },
+    {
+      name: 'Rajesh Gadepalli',
+      email: 'manager.name@ggktech.com',
+      role: 'Senior Manager',
+      location: 'Waverock',
+      projects: [
+        { name: 'Project1', technologies: ['Ruby', 'Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql'] },
+        { name: 'Project2', technologies: ['Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'React Js', 'Material UI'] },
+        { name: 'Project3', technologies: ['Python', 'Django', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'SQL'] },
+        { name: 'Project4', technologies: ['Node Js', 'AWS', 'Jquery', 'Javascript', 'Php', 'Ajax', 'XML', 'SQL', 'C#', '.NET'] },
+        { name: 'Project5', technologies: ['Angular 2', 'Java', 'Spring', 'Hadoop', 'Machine Learning', 'R', 'Numpy'] },
+        { name: 'Project6', technologies: ['Block Chain', 'Python', 'Jquery'] }
+      ]
+    },
+    {
+      name: 'Pradeep Pavuluri',
+      email: 'manager.name@ggktech.com',
+      role: 'Senior Manager',
+      location: 'Waverock',
+      projects: [
+        { name: 'Project1', technologies: ['Ruby', 'Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql'] },
+        { name: 'Project2', technologies: ['Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'React Js', 'Material UI'] },
+        { name: 'Project3', technologies: ['Python', 'Django', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'SQL'] },
+        { name: 'Project4', technologies: ['Node Js', 'AWS', 'Jquery', 'Javascript', 'Php', 'Ajax', 'XML', 'SQL', 'C#', '.NET'] },
+        { name: 'Project5', technologies: ['Angular 2', 'Java', 'Spring', 'Hadoop', 'Machine Learning', 'R', 'Numpy'] },
+        { name: 'Project6', technologies: ['Block Chain', 'Python', 'Jquery'] }
+      ]
+    },
+    {
+      name: 'Abhishek',
+      email: 'manager.name@ggktech.com',
+      role: 'Manager',
+      location: 'Uppal',
+      projects: [
+        { name: 'Project1', technologies: ['Ruby', 'Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql'] },
+        { name: 'Project2', technologies: ['Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'React Js', 'Material UI'] },
+        { name: 'Project3', technologies: ['Python', 'Django', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'SQL'] },
+        { name: 'Project4', technologies: ['Node Js', 'AWS', 'Jquery', 'Javascript', 'Php', 'Ajax', 'XML', 'SQL', 'C#', '.NET'] },
+        { name: 'Project5', technologies: ['Angular 2', 'Java', 'Spring', 'Hadoop', 'Machine Learning', 'R', 'Numpy'] },
+        { name: 'Project6', technologies: ['Block Chain', 'Python', 'Jquery'] }
+      ]
+    },
+    {
+      name: 'Sudheer',
+      email: 'manager.name@ggktech.com',
+      role: 'Manager',
+      location: 'Uppal',
+      projects: [
+        { name: 'Project1', technologies: ['Ruby', 'Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql'] },
+        { name: 'Project2', technologies: ['Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'React Js', 'Material UI'] },
+        { name: 'Project3', technologies: ['Python', 'Django', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'SQL'] },
+        { name: 'Project4', technologies: ['Node Js', 'AWS', 'Jquery', 'Javascript', 'Php', 'Ajax', 'XML', 'SQL', 'C#', '.NET'] },
+        { name: 'Project5', technologies: ['Angular 2', 'Java', 'Spring', 'Hadoop', 'Machine Learning', 'R', 'Numpy'] },
+        { name: 'Project6', technologies: ['Block Chain', 'Python', 'Jquery'] }
+      ]
+    },
+    {
+      name: 'kalyan',
+      email: 'manager.name@ggktech.com',
+      role: 'Manager',
+      location: 'Uppal',
+      projects: [
+        { name: 'Project1', technologies: ['Ruby', 'Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql'] },
+        { name: 'Project2', technologies: ['Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'React Js', 'Material UI'] },
+        { name: 'Project3', technologies: ['Python', 'Django', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'SQL'] },
+        { name: 'Project4', technologies: ['Node Js', 'AWS', 'Jquery', 'Javascript', 'Php', 'Ajax', 'XML', 'SQL', 'C#', '.NET'] },
+        { name: 'Project5', technologies: ['Angular 2', 'Java', 'Spring', 'Hadoop', 'Machine Learning', 'R', 'Numpy'] },
+        { name: 'Project6', technologies: ['Block Chain', 'Python', 'Jquery'] }
+      ]
+    },
+    {
+      name: 'Arun',
+      email: 'manager.name@ggktech.com',
+      role: 'Senior Manager',
+      location: 'Waverock',
+      projects: [
+        { name: 'Project1', technologies: ['Ruby', 'Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql'] },
+        { name: 'Project2', technologies: ['Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'React Js', 'Material UI'] },
+        { name: 'Project3', technologies: ['Python', 'Django', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'SQL'] },
+        { name: 'Project4', technologies: ['Node Js', 'AWS', 'Jquery', 'Javascript', 'Php', 'Ajax', 'XML', 'SQL', 'C#', '.NET'] },
+        { name: 'Project5', technologies: ['Angular 2', 'Java', 'Spring', 'Hadoop', 'Machine Learning', 'R', 'Numpy'] },
+        { name: 'Project6', technologies: ['Block Chain', 'Python', 'Jquery'] }
+      ]
+    },
+    {
+      name: 'Venkatadhri Davu',
+      email: 'manager.name@ggktech.com',
+      role: 'Manager',
+      location: 'Waverock',
+      projects: [
+        { name: 'Project1', technologies: ['Ruby', 'Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql'] },
+        { name: 'Project2', technologies: ['Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'React Js', 'Material UI'] },
+        { name: 'Project3', technologies: ['Python', 'Django', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'SQL'] },
+        { name: 'Project4', technologies: ['Node Js', 'AWS', 'Jquery', 'Javascript', 'Php', 'Ajax', 'XML', 'SQL', 'C#', '.NET'] },
+        { name: 'Project5', technologies: ['Angular 2', 'Java', 'Spring', 'Hadoop', 'Machine Learning', 'R', 'Numpy'] },
+        { name: 'Project6', technologies: ['Block Chain', 'Python', 'Jquery'] }
+      ]
+    },
+    {
+      name: 'Anuradha',
+      email: 'manager.name@ggktech.com',
+      role: 'Manager',
+      location: 'Waverock',
+      projects: [
+        { name: 'Project1', technologies: ['Ruby', 'Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql'] },
+        { name: 'Project2', technologies: ['Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'React Js', 'Material UI'] },
+        { name: 'Project3', technologies: ['Python', 'Django', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'SQL'] },
+        { name: 'Project4', technologies: ['Node Js', 'AWS', 'Jquery', 'Javascript', 'Php', 'Ajax', 'XML', 'SQL', 'C#', '.NET'] },
+        { name: 'Project5', technologies: ['Angular 2', 'Java', 'Spring', 'Hadoop', 'Machine Learning', 'R', 'Numpy'] },
+        { name: 'Project6', technologies: ['Block Chain', 'Python', 'Jquery'] }
+      ]
+    },
+    {
+      name: 'Shivam Yadav',
+      email: 'manager.name@ggktech.com',
+      role: 'Associate Manager',
+      location: 'Uppal',
+      projects: [
+        { name: 'Auto.com', technologies: ['Ruby', 'React Js', 'CSS', 'Html', 'Slim', 'Postgresql', 'Node Js', 'Typescript'] },
+        { name: 'Milestone Groups', technologies: ['Java', 'Spring'] }
+      ]
+    }
   ]
   
 

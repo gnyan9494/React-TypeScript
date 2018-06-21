@@ -23,7 +23,7 @@ export class Listings extends React.Component<IListingsProps> {
     
     if (item.location.toLowerCase() === type.toLowerCase() || type.toLowerCase() === 'all') {
 
-      if(techValue && manValue) {
+      if(techValue && manValue){
         if(item.name.toLowerCase() === manValue.toLowerCase()) {
           (item.projects).map((x:any) => { 
             if((x.technologies).includes(techValue)) {

@@ -182,10 +182,10 @@ export class Header extends React.Component<IHeaderProps, IState> {
             </div>
             <button className='btn btn-default' onClick={this.change}>Submit</button>
         </div>
-        <ul className='nav navbar-nav navbar-right'>
+        {/* <ul className='nav navbar-nav navbar-right'>
           <li><a href='#' className='btn' data-toggle='modal' data-target='#loginModal'>
           <span className='glyphicon glyphicon-log-in'/>  L O G I N</a></li>
-        </ul>
+        </ul> */}
       </div>
     </nav>
       )
