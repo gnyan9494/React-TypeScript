@@ -24,8 +24,7 @@ export class App extends React.Component<{}, IState> {
   shouldComponentUpdate() {
     return true;
   }
-  changeType = (data: string, techValue: string, manValue: string) => {
-    debugger
+  changeType = (data: string, techValue: string, manValue: string) => {  
     this.setState({type: data, techValue: techValue, manValue: manValue})
   }
 

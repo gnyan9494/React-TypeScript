@@ -6,9 +6,9 @@ export const mockData: any = [
       role: 'Senior Manager',
       location: 'Uppal',
       projects: [
-        { name: 'Shop Steive', technologies: ['Ruby', 'Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql'] },
-        { name: 'Lease Analytics', technologies: ['Ruby', 'Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'React Js', 'Material UI'] },
-        { name: 'BRG', technologies: ['Python', 'Django', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'SQL'] },
+        { name: 'Shop Steive', technologies: ['Xml', 'CSS', 'Bootstrap', 'Html', 'Mongo DB'] },
+        { name: 'Lease Analytics', technologies: ['Ruby', 'Ruby on rails', 'W3', 'Bootstrap4', 'Html5',  'Typescript', 'Material UI'] },
+        { name: 'BRG', technologies: ['Python', 'Django', 'Php', 'SQL'] },
         { name: 'Bridge', technologies: ['Node Js', 'Docker', 'Postgresql', 'Javascript', 'React Js', 'AWS', 'Bash Shell script', 'Batch Script', 'Jenkins', 'AngularJs',
           'Java','spring', 'Clojure', 'Nginx', 'Hydra', 'kafka'] }
       ]
@@ -21,7 +21,7 @@ export const mockData: any = [
       projects: [
         { name: 'Project1', technologies: ['SQL', 'Postgresql', 'Angular 2', 'Javascript'] },
         { name: 'Project2', technologies: ['Java', 'Spring', 'Hadoop'] },
-        { name: 'Project3', technologies: ['Python', 'Django', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'SQL'] }
+        { name: 'Project3', technologies: ['Python', 'Django', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Mongo DB', 'Sqlite'] }
       ]
     },
     {
@@ -30,12 +30,12 @@ export const mockData: any = [
       role: 'Senior Manager',
       location: 'Waverock',
       projects: [
-        { name: 'Project1', technologies: ['Ruby', 'Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql'] },
-        { name: 'Project2', technologies: ['Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'React Js', 'Material UI'] },
-        { name: 'Project3', technologies: ['Python', 'Django', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'SQL'] },
-        { name: 'Project4', technologies: ['Node Js', 'AWS', 'Jquery', 'Javascript', 'Php', 'Ajax', 'XML', 'SQL', 'C#', '.NET'] },
+        { name: 'Project1', technologies: ['Ruby 2.2', 'Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql'] },
+        { name: 'Project2', technologies: ['Ruby on rails 4.2', 'Bootstrap3', 'Html5', 'React Js', 'Material UI'] },
+        { name: 'Project3', technologies: ['Python', 'Django', 'Bootstrap4', 'Sqlite'] },
+        { name: 'Project4', technologies: ['Node Js', 'AWS', 'Javascript', 'Php', 'Ajax', 'XML', 'SQL', 'C#', '.NET'] },
         { name: 'Project5', technologies: ['Angular 2', 'Java', 'Spring', 'Hadoop', 'Machine Learning', 'R', 'Numpy'] },
-        { name: 'Project6', technologies: ['Block Chain', 'Python', 'Jquery'] }
+        { name: 'Project6', technologies: ['Block Chain', 'Python 3', 'Jquery'] }
       ]
     },
     {
@@ -44,12 +44,12 @@ export const mockData: any = [
       role: 'Associate Manager',
       location: 'Uppal',
       projects: [
-        { name: 'Project1', technologies: ['Ruby', 'Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql'] },
-        { name: 'Project2', technologies: ['Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'React Js', 'Material UI'] },
-        { name: 'Project3', technologies: ['Python', 'Django', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'SQL'] },
-        { name: 'Project4', technologies: ['Node Js', 'AWS', 'Jquery', 'Javascript', 'Php', 'Ajax', 'XML', 'SQL', 'C#', '.NET'] },
+        { name: 'Project1', technologies: ['Ruby 2.4', 'Ruby on rails 5', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Mongo DB'] },
+        { name: 'Project2', technologies: ['Ruby on rails 4.6', 'SCSS', 'Bootstrap3', 'React Js', 'Material UI'] },
+        { name: 'Project3', technologies: ['Python', 'Django', 'Bootstrap4', 'Html5', 'Postgresql', 'SQL'] },
+        { name: 'Project4', technologies: ['Node Js', 'AWS', 'Javascript', 'Php', 'Ajax', 'XML', 'Sqlite 3', 'C#', '.NET'] },
         { name: 'Project5', technologies: ['Angular 2', 'Java', 'Spring', 'Hadoop', 'Machine Learning', 'R', 'Numpy'] },
-        { name: 'Project6', technologies: ['Block Chain', 'Python', 'Jquery'] }
+        { name: 'Project6', technologies: ['Block Chain', 'Python 2', 'Jquery'] }
       ]
     },
     {
@@ -58,8 +58,8 @@ export const mockData: any = [
       role: 'Manager',
       location: 'Uppal',
       projects: [
-        { name: 'Project1', technologies: ['Angular 2', 'Javascript', 'Angular Js', '.NET', 'C#'] },
-        { name: 'Project2', technologies: ['.NET', 'C#', 'Angular Js'] }
+        { name: 'Project1', technologies: ['Angular 2', 'Javascript', 'Angular 4', '.NET Core', 'C#'] },
+        { name: 'Project2', technologies: ['Microsoft .NET', 'C++', 'Angular Js'] }
       ]
     },
     {
@@ -68,12 +68,12 @@ export const mockData: any = [
       role: 'Manager',
       location: 'Uppal',
       projects: [
-        { name: 'Project1', technologies: ['Ruby', 'Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql'] },
-        { name: 'Project2', technologies: ['Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'React Js', 'Material UI'] },
-        { name: 'Project3', technologies: ['Python', 'Django', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'SQL'] },
-        { name: 'Project4', technologies: ['Node Js', 'AWS', 'Jquery', 'Javascript', 'Php', 'Ajax', 'XML', 'SQL', 'C#', '.NET'] },
+        { name: 'Project1', technologies: ['Ruby 2.4', 'Ruby on rails 5.2', 'SCSS', 'Bootstrap', 'Html', 'Postgresql'] },
+        { name: 'Project2', technologies: ['Ruby on rails', 'CSS', 'Bootstrap 3', 'Html5', 'Mongo DB', 'React Js', 'Material UI'] },
+        { name: 'Project3', technologies: ['Python', 'Django', 'CSS', 'Bootstrap 4', 'Docker', 'SQL'] },
+        { name: 'Project4', technologies: ['Node Js', 'AWS','Javascript', 'Php', 'Ajax', 'XML', 'Sqlite 3', 'C#', '.NET'] },
         { name: 'Project5', technologies: ['Angular 2', 'Java', 'Spring', 'Hadoop', 'Machine Learning', 'R', 'Numpy'] },
-        { name: 'Project6', technologies: ['Block Chain', 'Python', 'Jquery'] }
+        { name: 'Project6', technologies: ['Block Chain', 'Python 3', 'Jquery'] }
       ]
     },
     {
@@ -82,12 +82,12 @@ export const mockData: any = [
       role: 'Manager',
       location: 'Waverock',
       projects: [
-        { name: 'Project1', technologies: ['Ruby', 'Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql'] },
-        { name: 'Project2', technologies: ['Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'React Js', 'Material UI'] },
-        { name: 'Project3', technologies: ['Python', 'Django', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'SQL'] },
-        { name: 'Project4', technologies: ['Node Js', 'AWS', 'Jquery', 'Javascript', 'Php', 'Ajax', 'XML', 'SQL', 'C#', '.NET'] },
+        { name: 'Project1', technologies: ['Ruby 2.4', 'Ruby on rails 5.2', 'SCSS', 'Bootstrap', 'Html', 'Postgresql'] },
+        { name: 'Project2', technologies: ['Ruby on rails', 'CSS', 'Bootstrap 3', 'Html5', 'Mongo DB', 'React Js', 'Material UI'] },
+        { name: 'Project3', technologies: ['Python', 'Django', 'CSS', 'Bootstrap 4', 'Docker', 'SQL'] },
+        { name: 'Project4', technologies: ['Node Js', 'AWS','Javascript', 'Php', 'Ajax', 'XML', 'Sqlite 3', 'C#', '.NET'] },
         { name: 'Project5', technologies: ['Angular 2', 'Java', 'Spring', 'Hadoop', 'Machine Learning', 'R', 'Numpy'] },
-        { name: 'Project6', technologies: ['Block Chain', 'Python', 'Jquery'] }
+        { name: 'Project6', technologies: ['Block Chain', 'Python 3', 'Jquery'] }
       ]
     },
     {
@@ -96,12 +96,12 @@ export const mockData: any = [
       role: 'Associate Manager',
       location: 'Uppal',
       projects: [
-        { name: 'Project1', technologies: ['Ruby', 'Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql'] },
-        { name: 'Project2', technologies: ['Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'React Js', 'Material UI'] },
-        { name: 'Project3', technologies: ['Python', 'Django', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'SQL'] },
-        { name: 'Project4', technologies: ['Node Js', 'AWS', 'Jquery', 'Javascript', 'Php', 'Ajax', 'XML', 'SQL', 'C#', '.NET'] },
+        { name: 'Project1', technologies: ['Ruby 2.4', 'Ruby on rails 5.2', 'SCSS', 'Bootstrap', 'Html', 'Postgresql'] },
+        { name: 'Project2', technologies: ['Ruby on rails', 'CSS', 'Bootstrap 3', 'Html5', 'Mongo DB', 'React Js', 'Material UI'] },
+        { name: 'Project3', technologies: ['Python', 'Django', 'CSS', 'Bootstrap 4', 'Docker', 'SQL'] },
+        { name: 'Project4', technologies: ['Node Js', 'AWS','Javascript', 'Php', 'Ajax', 'XML', 'Sqlite 3', 'C#', '.NET'] },
         { name: 'Project5', technologies: ['Angular 2', 'Java', 'Spring', 'Hadoop', 'Machine Learning', 'R', 'Numpy'] },
-        { name: 'Project6', technologies: ['Block Chain', 'Python', 'Jquery'] }
+        { name: 'Project6', technologies: ['Block Chain', 'Python 3', 'Jquery'] }
       ]
     },
     {
@@ -110,12 +110,12 @@ export const mockData: any = [
       role: 'Senior Manager',
       location: 'Uppal',
       projects: [
-        { name: 'Project1', technologies: ['Ruby', 'Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql'] },
-        { name: 'Project2', technologies: ['Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'React Js', 'Material UI'] },
-        { name: 'Project3', technologies: ['Python', 'Django', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'SQL'] },
-        { name: 'Project4', technologies: ['Node Js', 'AWS', 'Jquery', 'Javascript', 'Php', 'Ajax', 'XML', 'SQL', 'C#', '.NET'] },
+        { name: 'Project1', technologies: ['Ruby 2.4', 'Ruby on rails 5.2', 'SCSS', 'Bootstrap', 'Html', 'Postgresql'] },
+        { name: 'Project2', technologies: ['Ruby on rails', 'CSS', 'Bootstrap 3', 'Html5', 'Mongo DB', 'React Js', 'Material UI'] },
+        { name: 'Project3', technologies: ['Python', 'Django', 'CSS', 'Bootstrap 4', 'Docker', 'SQL'] },
+        { name: 'Project4', technologies: ['Node Js', 'AWS','Javascript', 'Php', 'Ajax', 'XML', 'Sqlite 3', 'C#', '.NET'] },
         { name: 'Project5', technologies: ['Angular 2', 'Java', 'Spring', 'Hadoop', 'Machine Learning', 'R', 'Numpy'] },
-        { name: 'Project6', technologies: ['Block Chain', 'Python', 'Jquery'] }
+        { name: 'Project6', technologies: ['Block Chain', 'Python 3', 'Jquery'] }
       ]
     },
     {
@@ -124,12 +124,12 @@ export const mockData: any = [
       role: 'Associate Manager',
       location: 'Waverock',
       projects: [
-        { name: 'Project1', technologies: ['Ruby', 'Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql'] },
-        { name: 'Project2', technologies: ['Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'React Js', 'Material UI'] },
-        { name: 'Project3', technologies: ['Python', 'Django', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'SQL'] },
-        { name: 'Project4', technologies: ['Node Js', 'AWS', 'Jquery', 'Javascript', 'Php', 'Ajax', 'XML', 'SQL', 'C#', '.NET'] },
+        { name: 'Project1', technologies: ['Ruby 2.4', 'Ruby on rails 5.2', 'SCSS', 'Bootstrap', 'Html', 'Postgresql'] },
+        { name: 'Project2', technologies: ['Ruby on rails', 'CSS', 'Bootstrap 3', 'Html5', 'Mongo DB', 'React Js', 'Material UI'] },
+        { name: 'Project3', technologies: ['Python', 'Django', 'CSS', 'Bootstrap 4', 'Docker', 'SQL'] },
+        { name: 'Project4', technologies: ['Node Js', 'AWS','Javascript', 'Php', 'Ajax', 'XML', 'Sqlite 3', 'C#', '.NET'] },
         { name: 'Project5', technologies: ['Angular 2', 'Java', 'Spring', 'Hadoop', 'Machine Learning', 'R', 'Numpy'] },
-        { name: 'Project6', technologies: ['Block Chain', 'Python', 'Jquery'] }
+        { name: 'Project6', technologies: ['Block Chain', 'Python 3', 'Jquery'] }
       ]
     },
     {
@@ -138,12 +138,12 @@ export const mockData: any = [
       role: 'Associate Manager',
       location: 'Waverock',
       projects: [
-        { name: 'Project1', technologies: ['Ruby', 'Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql'] },
-        { name: 'Project2', technologies: ['Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'React Js', 'Material UI'] },
-        { name: 'Project3', technologies: ['Python', 'Django', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'SQL'] },
-        { name: 'Project4', technologies: ['Node Js', 'AWS', 'Jquery', 'Javascript', 'Php', 'Ajax', 'XML', 'SQL', 'C#', '.NET'] },
+        { name: 'Project1', technologies: ['Ruby 2.4', 'Ruby on rails 5.2', 'SCSS', 'Bootstrap', 'Html', 'Postgresql'] },
+        { name: 'Project2', technologies: ['Ruby on rails', 'CSS', 'Bootstrap 3', 'Html5', 'Mongo DB', 'React Js', 'Material UI'] },
+        { name: 'Project3', technologies: ['Python', 'Django', 'CSS', 'Bootstrap 4', 'Docker', 'SQL'] },
+        { name: 'Project4', technologies: ['Node Js', 'AWS','Javascript', 'Php', 'Ajax', 'XML', 'Sqlite 3', 'C#', '.NET'] },
         { name: 'Project5', technologies: ['Angular 2', 'Java', 'Spring', 'Hadoop', 'Machine Learning', 'R', 'Numpy'] },
-        { name: 'Project6', technologies: ['Block Chain', 'Python', 'Jquery'] }
+        { name: 'Project6', technologies: ['Block Chain', 'Python 3', 'Jquery'] }
       ]
     },
     {
@@ -152,12 +152,12 @@ export const mockData: any = [
       role: 'Senior Manager',
       location: 'Uppal',
       projects: [
-        { name: 'Project1', technologies: ['Ruby', 'Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql'] },
-        { name: 'Project2', technologies: ['Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'React Js', 'Material UI'] },
-        { name: 'Project3', technologies: ['Python', 'Django', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'SQL'] },
-        { name: 'Project4', technologies: ['Node Js', 'AWS', 'Jquery', 'Javascript', 'Php', 'Ajax', 'XML', 'SQL', 'C#', '.NET'] },
+        { name: 'Project1', technologies: ['Ruby 2.4', 'Ruby on rails 5.2', 'SCSS', 'Bootstrap', 'Html', 'Postgresql'] },
+        { name: 'Project2', technologies: ['Ruby on rails', 'CSS', 'Bootstrap 3', 'Html5', 'Mongo DB', 'React Js', 'Material UI'] },
+        { name: 'Project3', technologies: ['Python', 'Django', 'CSS', 'Bootstrap 4', 'Docker', 'SQL'] },
+        { name: 'Project4', technologies: ['Node Js', 'AWS','Javascript', 'Php', 'Ajax', 'XML', 'Sqlite 3', 'C#', '.NET'] },
         { name: 'Project5', technologies: ['Angular 2', 'Java', 'Spring', 'Hadoop', 'Machine Learning', 'R', 'Numpy'] },
-        { name: 'Project6', technologies: ['Block Chain', 'Python', 'Jquery'] }
+        { name: 'Project6', technologies: ['Block Chain', 'Python 3', 'Jquery'] }
       ]
     },
     {
@@ -166,12 +166,12 @@ export const mockData: any = [
       role: 'Manager',
       location: 'Uppal',
       projects: [
-        { name: 'Project1', technologies: ['Ruby', 'Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql'] },
-        { name: 'Project2', technologies: ['Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'React Js', 'Material UI'] },
-        { name: 'Project3', technologies: ['Python', 'Django', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'SQL'] },
-        { name: 'Project4', technologies: ['Node Js', 'AWS', 'Jquery', 'Javascript', 'Php', 'Ajax', 'XML', 'SQL', 'C#', '.NET'] },
+        { name: 'Project1', technologies: ['Ruby 2.4', 'Ruby on rails 5.2', 'SCSS', 'Bootstrap', 'Html', 'Postgresql'] },
+        { name: 'Project2', technologies: ['Ruby on rails', 'CSS', 'Bootstrap 3', 'Html5', 'Mongo DB', 'React Js', 'Material UI'] },
+        { name: 'Project3', technologies: ['Python', 'Django', 'CSS', 'Bootstrap 4', 'Docker', 'SQL'] },
+        { name: 'Project4', technologies: ['Node Js', 'AWS','Javascript', 'Php', 'Ajax', 'XML', 'Sqlite 3', 'C#', '.NET'] },
         { name: 'Project5', technologies: ['Angular 2', 'Java', 'Spring', 'Hadoop', 'Machine Learning', 'R', 'Numpy'] },
-        { name: 'Project6', technologies: ['Block Chain', 'Python', 'Jquery'] }
+        { name: 'Project6', technologies: ['Block Chain', 'Python 3', 'Jquery'] }
       ]
     },
     {
@@ -180,12 +180,12 @@ export const mockData: any = [
       role: 'Associate Manager',
       location: 'Waverock',
       projects: [
-        { name: 'Project1', technologies: ['Ruby', 'Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql'] },
-        { name: 'Project2', technologies: ['Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'React Js', 'Material UI'] },
-        { name: 'Project3', technologies: ['Python', 'Django', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'SQL'] },
-        { name: 'Project4', technologies: ['Node Js', 'AWS', 'Jquery', 'Javascript', 'Php', 'Ajax', 'XML', 'SQL', 'C#', '.NET'] },
+        { name: 'Project1', technologies: ['Ruby 2.4', 'Ruby on rails 5.2', 'SCSS', 'Bootstrap', 'Html', 'Postgresql'] },
+        { name: 'Project2', technologies: ['Ruby on rails', 'CSS', 'Bootstrap 3', 'Html5', 'Mongo DB', 'React Js', 'Material UI'] },
+        { name: 'Project3', technologies: ['Python', 'Django', 'CSS', 'Bootstrap 4', 'Docker', 'SQL'] },
+        { name: 'Project4', technologies: ['Node Js', 'AWS','Javascript', 'Php', 'Ajax', 'XML', 'Sqlite 3', 'C#', '.NET'] },
         { name: 'Project5', technologies: ['Angular 2', 'Java', 'Spring', 'Hadoop', 'Machine Learning', 'R', 'Numpy'] },
-        { name: 'Project6', technologies: ['Block Chain', 'Python', 'Jquery'] }
+        { name: 'Project6', technologies: ['Block Chain', 'Python 3', 'Jquery'] }
       ]
     },
     {
@@ -194,12 +194,12 @@ export const mockData: any = [
       role: 'Associate Manager',
       location: 'Waverock',
       projects: [
-        { name: 'Project1', technologies: ['Ruby', 'Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql'] },
-        { name: 'Project2', technologies: ['Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'React Js', 'Material UI'] },
-        { name: 'Project3', technologies: ['Python', 'Django', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'SQL'] },
-        { name: 'Project4', technologies: ['Node Js', 'AWS', 'Jquery', 'Javascript', 'Php', 'Ajax', 'XML', 'SQL', 'C#', '.NET'] },
+        { name: 'Project1', technologies: ['Ruby 2.4', 'Ruby on rails 5.2', 'SCSS', 'Bootstrap', 'Html', 'Postgresql'] },
+        { name: 'Project2', technologies: ['Ruby on rails', 'CSS', 'Bootstrap 3', 'Html5', 'Mongo DB', 'React Js', 'Material UI'] },
+        { name: 'Project3', technologies: ['Python', 'Django', 'CSS', 'Bootstrap 4', 'Docker', 'SQL'] },
+        { name: 'Project4', technologies: ['Node Js', 'AWS','Javascript', 'Php', 'Ajax', 'XML', 'Sqlite 3', 'C#', '.NET'] },
         { name: 'Project5', technologies: ['Angular 2', 'Java', 'Spring', 'Hadoop', 'Machine Learning', 'R', 'Numpy'] },
-        { name: 'Project6', technologies: ['Block Chain', 'Python', 'Jquery'] }
+        { name: 'Project6', technologies: ['Block Chain', 'Python 3', 'Jquery'] }
       ]
     },
     {
@@ -208,12 +208,12 @@ export const mockData: any = [
       role: 'Senior Manager',
       location: 'Uppal',
       projects: [
-        { name: 'Project1', technologies: ['Ruby', 'Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql'] },
-        { name: 'Project2', technologies: ['Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'React Js', 'Material UI'] },
-        { name: 'Project3', technologies: ['Python', 'Django', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'SQL'] },
-        { name: 'Project4', technologies: ['Node Js', 'AWS', 'Jquery', 'Javascript', 'Php', 'Ajax', 'XML', 'SQL', 'C#', '.NET'] },
+        { name: 'Project1', technologies: ['Ruby 2.4', 'Ruby on rails 5.2', 'SCSS', 'Bootstrap', 'Html', 'Postgresql'] },
+        { name: 'Project2', technologies: ['Ruby on rails', 'CSS', 'Bootstrap 3', 'Html5', 'Mongo DB', 'React Js', 'Material UI'] },
+        { name: 'Project3', technologies: ['Python', 'Django', 'CSS', 'Bootstrap 4', 'Docker', 'SQL'] },
+        { name: 'Project4', technologies: ['Node Js', 'AWS','Javascript', 'Php', 'Ajax', 'XML', 'Sqlite 3', 'C#', '.NET'] },
         { name: 'Project5', technologies: ['Angular 2', 'Java', 'Spring', 'Hadoop', 'Machine Learning', 'R', 'Numpy'] },
-        { name: 'Project6', technologies: ['Block Chain', 'Python', 'Jquery'] }
+        { name: 'Project6', technologies: ['Block Chain', 'Python 3', 'Jquery'] }
       ]
     },
     {
@@ -222,12 +222,12 @@ export const mockData: any = [
       role: 'Senior Manager',
       location: 'Uppal',
       projects: [
-        { name: 'Project1', technologies: ['Ruby', 'Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql'] },
-        { name: 'Project2', technologies: ['Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'React Js', 'Material UI'] },
-        { name: 'Project3', technologies: ['Python', 'Django', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'SQL'] },
-        { name: 'Project4', technologies: ['Node Js', 'AWS', 'Jquery', 'Javascript', 'Php', 'Ajax', 'XML', 'SQL', 'C#', '.NET'] },
+        { name: 'Project1', technologies: ['Ruby 2.4', 'Ruby on rails 5.2', 'SCSS', 'Bootstrap', 'Html', 'Postgresql'] },
+        { name: 'Project2', technologies: ['Ruby on rails', 'CSS', 'Bootstrap 3', 'Html5', 'Mongo DB', 'React Js', 'Material UI'] },
+        { name: 'Project3', technologies: ['Python', 'Django', 'CSS', 'Bootstrap 4', 'Docker', 'SQL'] },
+        { name: 'Project4', technologies: ['Node Js', 'AWS','Javascript', 'Php', 'Ajax', 'XML', 'Sqlite 3', 'C#', '.NET'] },
         { name: 'Project5', technologies: ['Angular 2', 'Java', 'Spring', 'Hadoop', 'Machine Learning', 'R', 'Numpy'] },
-        { name: 'Project6', technologies: ['Block Chain', 'Python', 'Jquery'] }
+        { name: 'Project6', technologies: ['Block Chain', 'Python 3', 'Jquery'] }
       ]
     },
     {
@@ -236,12 +236,12 @@ export const mockData: any = [
       role: 'Associate Manager',
       location: 'Waverock',
       projects: [
-        { name: 'Project1', technologies: ['Ruby', 'Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql'] },
-        { name: 'Project2', technologies: ['Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'React Js', 'Material UI'] },
-        { name: 'Project3', technologies: ['Python', 'Django', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'SQL'] },
-        { name: 'Project4', technologies: ['Node Js', 'AWS', 'Jquery', 'Javascript', 'Php', 'Ajax', 'XML', 'SQL', 'C#', '.NET'] },
+        { name: 'Project1', technologies: ['Ruby 2.4', 'Ruby on rails 5.2', 'SCSS', 'Bootstrap', 'Html', 'Postgresql'] },
+        { name: 'Project2', technologies: ['Ruby on rails', 'CSS', 'Bootstrap 3', 'Html5', 'Mongo DB', 'React Js', 'Material UI'] },
+        { name: 'Project3', technologies: ['Python', 'Django', 'CSS', 'Bootstrap 4', 'Docker', 'SQL'] },
+        { name: 'Project4', technologies: ['Node Js', 'AWS','Javascript', 'Php', 'Ajax', 'XML', 'Sqlite 3', 'C#', '.NET'] },
         { name: 'Project5', technologies: ['Angular 2', 'Java', 'Spring', 'Hadoop', 'Machine Learning', 'R', 'Numpy'] },
-        { name: 'Project6', technologies: ['Block Chain', 'Python', 'Jquery'] }
+        { name: 'Project6', technologies: ['Block Chain', 'Python 3', 'Jquery'] }
       ]
     },
     {
@@ -250,12 +250,12 @@ export const mockData: any = [
       role: 'Senior Manager',
       location: 'Uppal',
       projects: [
-        { name: 'Project1', technologies: ['Ruby', 'Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql'] },
-        { name: 'Project2', technologies: ['Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'React Js', 'Material UI'] },
-        { name: 'Project3', technologies: ['Python', 'Django', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'SQL'] },
-        { name: 'Project4', technologies: ['Node Js', 'AWS', 'Jquery', 'Javascript', 'Php', 'Ajax', 'XML', 'SQL', 'C#', '.NET'] },
+        { name: 'Project1', technologies: ['Ruby 2.4', 'Ruby on rails 5.2', 'SCSS', 'Bootstrap', 'Html', 'Postgresql'] },
+        { name: 'Project2', technologies: ['Ruby on rails', 'CSS', 'Bootstrap 3', 'Html5', 'Mongo DB', 'React Js', 'Material UI'] },
+        { name: 'Project3', technologies: ['Python', 'Django', 'CSS', 'Bootstrap 4', 'Docker', 'SQL'] },
+        { name: 'Project4', technologies: ['Node Js', 'AWS','Javascript', 'Php', 'Ajax', 'XML', 'Sqlite 3', 'C#', '.NET'] },
         { name: 'Project5', technologies: ['Angular 2', 'Java', 'Spring', 'Hadoop', 'Machine Learning', 'R', 'Numpy'] },
-        { name: 'Project6', technologies: ['Block Chain', 'Python', 'Jquery'] }
+        { name: 'Project6', technologies: ['Block Chain', 'Python 3', 'Jquery'] }
       ]
     },
     {
@@ -264,12 +264,12 @@ export const mockData: any = [
       role: 'Senior Manager',
       location: 'Uppal',
       projects: [
-        { name: 'Project1', technologies: ['Ruby', 'Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql'] },
-        { name: 'Project2', technologies: ['Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'React Js', 'Material UI'] },
-        { name: 'Project3', technologies: ['Python', 'Django', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'SQL'] },
-        { name: 'Project4', technologies: ['Node Js', 'AWS', 'Jquery', 'Javascript', 'Php', 'Ajax', 'XML', 'SQL', 'C#', '.NET'] },
+        { name: 'Project1', technologies: ['Ruby 2.4', 'Ruby on rails 5.2', 'SCSS', 'Bootstrap', 'Html', 'Postgresql'] },
+        { name: 'Project2', technologies: ['Ruby on rails', 'CSS', 'Bootstrap 3', 'Html5', 'Mongo DB', 'React Js', 'Material UI'] },
+        { name: 'Project3', technologies: ['Python', 'Django', 'CSS', 'Bootstrap 4', 'Docker', 'SQL'] },
+        { name: 'Project4', technologies: ['Node Js', 'AWS','Javascript', 'Php', 'Ajax', 'XML', 'Sqlite 3', 'C#', '.NET'] },
         { name: 'Project5', technologies: ['Angular 2', 'Java', 'Spring', 'Hadoop', 'Machine Learning', 'R', 'Numpy'] },
-        { name: 'Project6', technologies: ['Block Chain', 'Python', 'Jquery'] }
+        { name: 'Project6', technologies: ['Block Chain', 'Python 3', 'Jquery'] }
       ]
     },
     {
@@ -278,12 +278,12 @@ export const mockData: any = [
       role: 'Associate Manager',
       location: 'Waverock',
       projects: [
-        { name: 'Project1', technologies: ['Ruby', 'Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql'] },
-        { name: 'Project2', technologies: ['Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'React Js', 'Material UI'] },
-        { name: 'Project3', technologies: ['Python', 'Django', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'SQL'] },
-        { name: 'Project4', technologies: ['Node Js', 'AWS', 'Jquery', 'Javascript', 'Php', 'Ajax', 'XML', 'SQL', 'C#', '.NET'] },
+        { name: 'Project1', technologies: ['Ruby 2.4', 'Ruby on rails 5.2', 'SCSS', 'Bootstrap', 'Html', 'Postgresql'] },
+        { name: 'Project2', technologies: ['Ruby on rails', 'CSS', 'Bootstrap 3', 'Html5', 'Mongo DB', 'React Js', 'Material UI'] },
+        { name: 'Project3', technologies: ['Python', 'Django', 'CSS', 'Bootstrap 4', 'Docker', 'SQL'] },
+        { name: 'Project4', technologies: ['Node Js', 'AWS','Javascript', 'Php', 'Ajax', 'XML', 'Sqlite 3', 'C#', '.NET'] },
         { name: 'Project5', technologies: ['Angular 2', 'Java', 'Spring', 'Hadoop', 'Machine Learning', 'R', 'Numpy'] },
-        { name: 'Project6', technologies: ['Block Chain', 'Python', 'Jquery'] }
+        { name: 'Project6', technologies: ['Block Chain', 'Python 3', 'Jquery'] }
       ]
     },
     {
@@ -292,12 +292,12 @@ export const mockData: any = [
       role: 'Associate Manager',
       location: 'Waverock',
       projects: [
-        { name: 'Project1', technologies: ['Ruby', 'Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql'] },
-        { name: 'Project2', technologies: ['Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'React Js', 'Material UI'] },
-        { name: 'Project3', technologies: ['Python', 'Django', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'SQL'] },
-        { name: 'Project4', technologies: ['Node Js', 'AWS', 'Jquery', 'Javascript', 'Php', 'Ajax', 'XML', 'SQL', 'C#', '.NET'] },
+        { name: 'Project1', technologies: ['Ruby 2.4', 'Ruby on rails 5.2', 'SCSS', 'Bootstrap', 'Html', 'Postgresql'] },
+        { name: 'Project2', technologies: ['Ruby on rails', 'CSS', 'Bootstrap 3', 'Html5', 'Mongo DB', 'React Js', 'Material UI'] },
+        { name: 'Project3', technologies: ['Python', 'Django', 'CSS', 'Bootstrap 4', 'Docker', 'SQL'] },
+        { name: 'Project4', technologies: ['Node Js', 'AWS','Javascript', 'Php', 'Ajax', 'XML', 'Sqlite 3', 'C#', '.NET'] },
         { name: 'Project5', technologies: ['Angular 2', 'Java', 'Spring', 'Hadoop', 'Machine Learning', 'R', 'Numpy'] },
-        { name: 'Project6', technologies: ['Block Chain', 'Python', 'Jquery'] }
+        { name: 'Project6', technologies: ['Block Chain', 'Python 3', 'Jquery'] }
       ]
     },
     {
@@ -306,12 +306,12 @@ export const mockData: any = [
       role: 'Manager',
       location: 'Uppal',
       projects: [
-        { name: 'Project1', technologies: ['Ruby', 'Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql'] },
-        { name: 'Project2', technologies: ['Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'React Js', 'Material UI'] },
-        { name: 'Project3', technologies: ['Python', 'Django', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'SQL'] },
-        { name: 'Project4', technologies: ['Node Js', 'AWS', 'Jquery', 'Javascript', 'Php', 'Ajax', 'XML', 'SQL', 'C#', '.NET'] },
+        { name: 'Project1', technologies: ['Ruby 2.4', 'Ruby on rails 5.2', 'SCSS', 'Bootstrap', 'Html', 'Postgresql'] },
+        { name: 'Project2', technologies: ['Ruby on rails', 'CSS', 'Bootstrap 3', 'Html5', 'Mongo DB', 'React Js', 'Material UI'] },
+        { name: 'Project3', technologies: ['Python', 'Django', 'CSS', 'Bootstrap 4', 'Docker', 'SQL'] },
+        { name: 'Project4', technologies: ['Node Js', 'AWS','Javascript', 'Php', 'Ajax', 'XML', 'Sqlite 3', 'C#', '.NET'] },
         { name: 'Project5', technologies: ['Angular 2', 'Java', 'Spring', 'Hadoop', 'Machine Learning', 'R', 'Numpy'] },
-        { name: 'Project6', technologies: ['Block Chain', 'Python', 'Jquery'] }
+        { name: 'Project6', technologies: ['Block Chain', 'Python 3', 'Jquery'] }
       ]
     },
     {
@@ -320,12 +320,12 @@ export const mockData: any = [
       role: 'Manager',
       location: 'Uppal',
       projects: [
-        { name: 'Project1', technologies: ['Ruby', 'Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql'] },
-        { name: 'Project2', technologies: ['Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'React Js', 'Material UI'] },
-        { name: 'Project3', technologies: ['Python', 'Django', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'SQL'] },
-        { name: 'Project4', technologies: ['Node Js', 'AWS', 'Jquery', 'Javascript', 'Php', 'Ajax', 'XML', 'SQL', 'C#', '.NET'] },
+        { name: 'Project1', technologies: ['Ruby 2.4', 'Ruby on rails 5.2', 'SCSS', 'Bootstrap', 'Html', 'Postgresql'] },
+        { name: 'Project2', technologies: ['Ruby on rails', 'CSS', 'Bootstrap 3', 'Html5', 'Mongo DB', 'React Js', 'Material UI'] },
+        { name: 'Project3', technologies: ['Python', 'Django', 'CSS', 'Bootstrap 4', 'Docker', 'SQL'] },
+        { name: 'Project4', technologies: ['Node Js', 'AWS','Javascript', 'Php', 'Ajax', 'XML', 'Sqlite 3', 'C#', '.NET'] },
         { name: 'Project5', technologies: ['Angular 2', 'Java', 'Spring', 'Hadoop', 'Machine Learning', 'R', 'Numpy'] },
-        { name: 'Project6', technologies: ['Block Chain', 'Python', 'Jquery'] }
+        { name: 'Project6', technologies: ['Block Chain', 'Python 3', 'Jquery'] }
       ]
     },
     {
@@ -334,12 +334,12 @@ export const mockData: any = [
       role: 'Senior Manager',
       location: 'Uppal',
       projects: [
-        { name: 'Project1', technologies: ['Ruby', 'Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql'] },
-        { name: 'Project2', technologies: ['Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'React Js', 'Material UI'] },
-        { name: 'Project3', technologies: ['Python', 'Django', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'SQL'] },
-        { name: 'Project4', technologies: ['Node Js', 'AWS', 'Jquery', 'Javascript', 'Php', 'Ajax', 'XML', 'SQL', 'C#', '.NET'] },
+        { name: 'Project1', technologies: ['Ruby 2.4', 'Ruby on rails 5.2', 'SCSS', 'Bootstrap', 'Html', 'Postgresql'] },
+        { name: 'Project2', technologies: ['Ruby on rails', 'CSS', 'Bootstrap 3', 'Html5', 'Mongo DB', 'React Js', 'Material UI'] },
+        { name: 'Project3', technologies: ['Python', 'Django', 'CSS', 'Bootstrap 4', 'Docker', 'SQL'] },
+        { name: 'Project4', technologies: ['Node Js', 'AWS','Javascript', 'Php', 'Ajax', 'XML', 'Sqlite 3', 'C#', '.NET'] },
         { name: 'Project5', technologies: ['Angular 2', 'Java', 'Spring', 'Hadoop', 'Machine Learning', 'R', 'Numpy'] },
-        { name: 'Project6', technologies: ['Block Chain', 'Python', 'Jquery'] }
+        { name: 'Project6', technologies: ['Block Chain', 'Python 3', 'Jquery'] }
       ]
     },
     {
@@ -348,12 +348,12 @@ export const mockData: any = [
       role: 'Senior Manager',
       location: 'Uppal',
       projects: [
-        { name: 'Project1', technologies: ['Ruby', 'Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql'] },
-        { name: 'Project2', technologies: ['Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'React Js', 'Material UI'] },
-        { name: 'Project3', technologies: ['Python', 'Django', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'SQL'] },
-        { name: 'Project4', technologies: ['Node Js', 'AWS', 'Jquery', 'Javascript', 'Php', 'Ajax', 'XML', 'SQL', 'C#', '.NET'] },
+        { name: 'Project1', technologies: ['Ruby 2.4', 'Ruby on rails 5.2', 'SCSS', 'Bootstrap', 'Html', 'Postgresql'] },
+        { name: 'Project2', technologies: ['Ruby on rails', 'CSS', 'Bootstrap 3', 'Html5', 'Mongo DB', 'React Js', 'Material UI'] },
+        { name: 'Project3', technologies: ['Python', 'Django', 'CSS', 'Bootstrap 4', 'Docker', 'SQL'] },
+        { name: 'Project4', technologies: ['Node Js', 'AWS','Javascript', 'Php', 'Ajax', 'XML', 'Sqlite 3', 'C#', '.NET'] },
         { name: 'Project5', technologies: ['Angular 2', 'Java', 'Spring', 'Hadoop', 'Machine Learning', 'R', 'Numpy'] },
-        { name: 'Project6', technologies: ['Block Chain', 'Python', 'Jquery'] }
+        { name: 'Project6', technologies: ['Block Chain', 'Python 3', 'Jquery'] }
       ]
     },
     {
@@ -362,12 +362,12 @@ export const mockData: any = [
       role: 'Manager',
       location: 'Uppal',
       projects: [
-        { name: 'Project1', technologies: ['Ruby', 'Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql'] },
-        { name: 'Project2', technologies: ['Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'React Js', 'Material UI'] },
-        { name: 'Project3', technologies: ['Python', 'Django', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'SQL'] },
-        { name: 'Project4', technologies: ['Node Js', 'AWS', 'Jquery', 'Javascript', 'Php', 'Ajax', 'XML', 'SQL', 'C#', '.NET'] },
+        { name: 'Project1', technologies: ['Ruby 2.4', 'Ruby on rails 5.2', 'SCSS', 'Bootstrap', 'Html', 'Postgresql'] },
+        { name: 'Project2', technologies: ['Ruby on rails', 'CSS', 'Bootstrap 3', 'Html5', 'Mongo DB', 'React Js', 'Material UI'] },
+        { name: 'Project3', technologies: ['Python', 'Django', 'CSS', 'Bootstrap 4', 'Docker', 'SQL'] },
+        { name: 'Project4', technologies: ['Node Js', 'AWS','Javascript', 'Php', 'Ajax', 'XML', 'Sqlite 3', 'C#', '.NET'] },
         { name: 'Project5', technologies: ['Angular 2', 'Java', 'Spring', 'Hadoop', 'Machine Learning', 'R', 'Numpy'] },
-        { name: 'Project6', technologies: ['Block Chain', 'Python', 'Jquery'] }
+        { name: 'Project6', technologies: ['Block Chain', 'Python 3', 'Jquery'] }
       ]
     },
     {
@@ -376,12 +376,12 @@ export const mockData: any = [
       role: 'Senior Manager',
       location: 'Uppal',
       projects: [
-        { name: 'Project1', technologies: ['Ruby', 'Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql'] },
-        { name: 'Project2', technologies: ['Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'React Js', 'Material UI'] },
-        { name: 'Project3', technologies: ['Python', 'Django', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'SQL'] },
-        { name: 'Project4', technologies: ['Node Js', 'AWS', 'Jquery', 'Javascript', 'Php', 'Ajax', 'XML', 'SQL', 'C#', '.NET'] },
+        { name: 'Project1', technologies: ['Ruby 2.4', 'Ruby on rails 5.2', 'SCSS', 'Bootstrap', 'Html', 'Postgresql'] },
+        { name: 'Project2', technologies: ['Ruby on rails', 'CSS', 'Bootstrap 3', 'Html5', 'Mongo DB', 'React Js', 'Material UI'] },
+        { name: 'Project3', technologies: ['Python', 'Django', 'CSS', 'Bootstrap 4', 'Docker', 'SQL'] },
+        { name: 'Project4', technologies: ['Node Js', 'AWS','Javascript', 'Php', 'Ajax', 'XML', 'Sqlite 3', 'C#', '.NET'] },
         { name: 'Project5', technologies: ['Angular 2', 'Java', 'Spring', 'Hadoop', 'Machine Learning', 'R', 'Numpy'] },
-        { name: 'Project6', technologies: ['Block Chain', 'Python', 'Jquery'] }
+        { name: 'Project6', technologies: ['Block Chain', 'Python 3', 'Jquery'] }
       ]
     },
     {
@@ -390,12 +390,12 @@ export const mockData: any = [
       role: 'Senior Manager',
       location: 'Uppal',
       projects: [
-        { name: 'Project1', technologies: ['Ruby', 'Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql'] },
-        { name: 'Project2', technologies: ['Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'React Js', 'Material UI'] },
-        { name: 'Project3', technologies: ['Python', 'Django', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'SQL'] },
-        { name: 'Project4', technologies: ['Node Js', 'AWS', 'Jquery', 'Javascript', 'Php', 'Ajax', 'XML', 'SQL', 'C#', '.NET'] },
+        { name: 'Project1', technologies: ['Ruby 2.4', 'Ruby on rails 5.2', 'SCSS', 'Bootstrap', 'Html', 'Postgresql'] },
+        { name: 'Project2', technologies: ['Ruby on rails', 'CSS', 'Bootstrap 3', 'Html5', 'Mongo DB', 'React Js', 'Material UI'] },
+        { name: 'Project3', technologies: ['Python', 'Django', 'CSS', 'Bootstrap 4', 'Docker', 'SQL'] },
+        { name: 'Project4', technologies: ['Node Js', 'AWS','Javascript', 'Php', 'Ajax', 'XML', 'Sqlite 3', 'C#', '.NET'] },
         { name: 'Project5', technologies: ['Angular 2', 'Java', 'Spring', 'Hadoop', 'Machine Learning', 'R', 'Numpy'] },
-        { name: 'Project6', technologies: ['Block Chain', 'Python', 'Jquery'] }
+        { name: 'Project6', technologies: ['Block Chain', 'Python 3', 'Jquery'] }
       ]
     },
     {
@@ -404,12 +404,12 @@ export const mockData: any = [
       role: 'Senior Manager',
       location: 'Waverock',
       projects: [
-        { name: 'Project1', technologies: ['Ruby', 'Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql'] },
-        { name: 'Project2', technologies: ['Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'React Js', 'Material UI'] },
-        { name: 'Project3', technologies: ['Python', 'Django', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'SQL'] },
-        { name: 'Project4', technologies: ['Node Js', 'AWS', 'Jquery', 'Javascript', 'Php', 'Ajax', 'XML', 'SQL', 'C#', '.NET'] },
+        { name: 'Project1', technologies: ['Ruby 2.4', 'Ruby on rails 5.2', 'SCSS', 'Bootstrap', 'Html', 'Postgresql'] },
+        { name: 'Project2', technologies: ['Ruby on rails', 'CSS', 'Bootstrap 3', 'Html5', 'Mongo DB', 'React Js', 'Material UI'] },
+        { name: 'Project3', technologies: ['Python', 'Django', 'CSS', 'Bootstrap 4', 'Docker', 'SQL'] },
+        { name: 'Project4', technologies: ['Node Js', 'AWS','Javascript', 'Php', 'Ajax', 'XML', 'Sqlite 3', 'C#', '.NET'] },
         { name: 'Project5', technologies: ['Angular 2', 'Java', 'Spring', 'Hadoop', 'Machine Learning', 'R', 'Numpy'] },
-        { name: 'Project6', technologies: ['Block Chain', 'Python', 'Jquery'] }
+        { name: 'Project6', technologies: ['Block Chain', 'Python 3', 'Jquery'] }
       ]
     },
     {
@@ -418,12 +418,12 @@ export const mockData: any = [
       role: 'Senior Manager',
       location: 'Waverock',
       projects: [
-        { name: 'Project1', technologies: ['Ruby', 'Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql'] },
-        { name: 'Project2', technologies: ['Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'React Js', 'Material UI'] },
-        { name: 'Project3', technologies: ['Python', 'Django', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'SQL'] },
-        { name: 'Project4', technologies: ['Node Js', 'AWS', 'Jquery', 'Javascript', 'Php', 'Ajax', 'XML', 'SQL', 'C#', '.NET'] },
+        { name: 'Project1', technologies: ['Ruby 2.4', 'Ruby on rails 5.2', 'SCSS', 'Bootstrap', 'Html', 'Postgresql'] },
+        { name: 'Project2', technologies: ['Ruby on rails', 'CSS', 'Bootstrap 3', 'Html5', 'Mongo DB', 'React Js', 'Material UI'] },
+        { name: 'Project3', technologies: ['Python', 'Django', 'CSS', 'Bootstrap 4', 'Docker', 'SQL'] },
+        { name: 'Project4', technologies: ['Node Js', 'AWS','Javascript', 'Php', 'Ajax', 'XML', 'Sqlite 3', 'C#', '.NET'] },
         { name: 'Project5', technologies: ['Angular 2', 'Java', 'Spring', 'Hadoop', 'Machine Learning', 'R', 'Numpy'] },
-        { name: 'Project6', technologies: ['Block Chain', 'Python', 'Jquery'] }
+        { name: 'Project6', technologies: ['Block Chain', 'Python 3', 'Jquery'] }
       ]
     },
     {
@@ -432,12 +432,12 @@ export const mockData: any = [
       role: 'Senior Manager',
       location: 'Uppal',
       projects: [
-        { name: 'Project1', technologies: ['Ruby', 'Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql'] },
-        { name: 'Project2', technologies: ['Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'React Js', 'Material UI'] },
-        { name: 'Project3', technologies: ['Python', 'Django', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'SQL'] },
-        { name: 'Project4', technologies: ['Node Js', 'AWS', 'Jquery', 'Javascript', 'Php', 'Ajax', 'XML', 'SQL', 'C#', '.NET'] },
+        { name: 'Project1', technologies: ['Ruby 2.4', 'Ruby on rails 5.2', 'SCSS', 'Bootstrap', 'Html', 'Postgresql'] },
+        { name: 'Project2', technologies: ['Ruby on rails', 'CSS', 'Bootstrap 3', 'Html5', 'Mongo DB', 'React Js', 'Material UI'] },
+        { name: 'Project3', technologies: ['Python', 'Django', 'CSS', 'Bootstrap 4', 'Docker', 'SQL'] },
+        { name: 'Project4', technologies: ['Node Js', 'AWS','Javascript', 'Php', 'Ajax', 'XML', 'Sqlite 3', 'C#', '.NET'] },
         { name: 'Project5', technologies: ['Angular 2', 'Java', 'Spring', 'Hadoop', 'Machine Learning', 'R', 'Numpy'] },
-        { name: 'Project6', technologies: ['Block Chain', 'Python', 'Jquery'] }
+        { name: 'Project6', technologies: ['Block Chain', 'Python 3', 'Jquery'] }
       ]
     },
     {
@@ -446,12 +446,12 @@ export const mockData: any = [
       role: 'Associate Manager',
       location: 'Uppal',
       projects: [
-        { name: 'Project1', technologies: ['Ruby', 'Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql'] },
-        { name: 'Project2', technologies: ['Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'React Js', 'Material UI'] },
-        { name: 'Project3', technologies: ['Python', 'Django', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'SQL'] },
-        { name: 'Project4', technologies: ['Node Js', 'AWS', 'Jquery', 'Javascript', 'Php', 'Ajax', 'XML', 'SQL', 'C#', '.NET'] },
+        { name: 'Project1', technologies: ['Ruby 2.4', 'Ruby on rails 5.2', 'SCSS', 'Bootstrap', 'Html', 'Postgresql'] },
+        { name: 'Project2', technologies: ['Ruby on rails', 'CSS', 'Bootstrap 3', 'Html5', 'Mongo DB', 'React Js', 'Material UI'] },
+        { name: 'Project3', technologies: ['Python', 'Django', 'CSS', 'Bootstrap 4', 'Docker', 'SQL'] },
+        { name: 'Project4', technologies: ['Node Js', 'AWS','Javascript', 'Php', 'Ajax', 'XML', 'Sqlite 3', 'C#', '.NET'] },
         { name: 'Project5', technologies: ['Angular 2', 'Java', 'Spring', 'Hadoop', 'Machine Learning', 'R', 'Numpy'] },
-        { name: 'Project6', technologies: ['Block Chain', 'Python', 'Jquery'] }
+        { name: 'Project6', technologies: ['Block Chain', 'Python 3', 'Jquery'] }
       ]
     },
     {
@@ -460,12 +460,12 @@ export const mockData: any = [
       role: 'Senior Manager',
       location: 'Waverock',
       projects: [
-        { name: 'Project1', technologies: ['Ruby', 'Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql'] },
-        { name: 'Project2', technologies: ['Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'React Js', 'Material UI'] },
-        { name: 'Project3', technologies: ['Python', 'Django', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'SQL'] },
-        { name: 'Project4', technologies: ['Node Js', 'AWS', 'Jquery', 'Javascript', 'Php', 'Ajax', 'XML', 'SQL', 'C#', '.NET'] },
+        { name: 'Project1', technologies: ['Ruby 2.4', 'Ruby on rails 5.2', 'SCSS', 'Bootstrap', 'Html', 'Postgresql'] },
+        { name: 'Project2', technologies: ['Ruby on rails', 'CSS', 'Bootstrap 3', 'Html5', 'Mongo DB', 'React Js', 'Material UI'] },
+        { name: 'Project3', technologies: ['Python', 'Django', 'CSS', 'Bootstrap 4', 'Docker', 'SQL'] },
+        { name: 'Project4', technologies: ['Node Js', 'AWS','Javascript', 'Php', 'Ajax', 'XML', 'Sqlite 3', 'C#', '.NET'] },
         { name: 'Project5', technologies: ['Angular 2', 'Java', 'Spring', 'Hadoop', 'Machine Learning', 'R', 'Numpy'] },
-        { name: 'Project6', technologies: ['Block Chain', 'Python', 'Jquery'] }
+        { name: 'Project6', technologies: ['Block Chain', 'Python 3', 'Jquery'] }
       ]
     },
     {
@@ -474,12 +474,12 @@ export const mockData: any = [
       role: 'Associate Manager',
       location: 'Uppal',
       projects: [
-        { name: 'Project1', technologies: ['Ruby', 'Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql'] },
-        { name: 'Project2', technologies: ['Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'React Js', 'Material UI'] },
-        { name: 'Project3', technologies: ['Python', 'Django', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'SQL'] },
-        { name: 'Project4', technologies: ['Node Js', 'AWS', 'Jquery', 'Javascript', 'Php', 'Ajax', 'XML', 'SQL', 'C#', '.NET'] },
+        { name: 'Project1', technologies: ['Ruby 2.4', 'Ruby on rails 5.2', 'SCSS', 'Bootstrap', 'Html', 'Postgresql'] },
+        { name: 'Project2', technologies: ['Ruby on rails', 'CSS', 'Bootstrap 3', 'Html5', 'Mongo DB', 'React Js', 'Material UI'] },
+        { name: 'Project3', technologies: ['Python', 'Django', 'CSS', 'Bootstrap 4', 'Docker', 'SQL'] },
+        { name: 'Project4', technologies: ['Node Js', 'AWS','Javascript', 'Php', 'Ajax', 'XML', 'Sqlite 3', 'C#', '.NET'] },
         { name: 'Project5', technologies: ['Angular 2', 'Java', 'Spring', 'Hadoop', 'Machine Learning', 'R', 'Numpy'] },
-        { name: 'Project6', technologies: ['Block Chain', 'Python', 'Jquery'] }
+        { name: 'Project6', technologies: ['Block Chain', 'Python 3', 'Jquery'] }
       ]
     },
     {
@@ -488,12 +488,12 @@ export const mockData: any = [
       role: 'Associate Manager',
       location: 'Uppal',
       projects: [
-        { name: 'Project1', technologies: ['Ruby', 'Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql'] },
-        { name: 'Project2', technologies: ['Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'React Js', 'Material UI'] },
-        { name: 'Project3', technologies: ['Python', 'Django', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'SQL'] },
-        { name: 'Project4', technologies: ['Node Js', 'AWS', 'Jquery', 'Javascript', 'Php', 'Ajax', 'XML', 'SQL', 'C#', '.NET'] },
+        { name: 'Project1', technologies: ['Ruby 2.4', 'Ruby on rails 5.2', 'SCSS', 'Bootstrap', 'Html', 'Postgresql'] },
+        { name: 'Project2', technologies: ['Ruby on rails', 'CSS', 'Bootstrap 3', 'Html5', 'Mongo DB', 'React Js', 'Material UI'] },
+        { name: 'Project3', technologies: ['Python', 'Django', 'CSS', 'Bootstrap 4', 'Docker', 'SQL'] },
+        { name: 'Project4', technologies: ['Node Js', 'AWS','Javascript', 'Php', 'Ajax', 'XML', 'Sqlite 3', 'C#', '.NET'] },
         { name: 'Project5', technologies: ['Angular 2', 'Java', 'Spring', 'Hadoop', 'Machine Learning', 'R', 'Numpy'] },
-        { name: 'Project6', technologies: ['Block Chain', 'Python', 'Jquery'] }
+        { name: 'Project6', technologies: ['Block Chain', 'Python 3', 'Jquery'] }
       ]
     },
     {
@@ -502,12 +502,12 @@ export const mockData: any = [
       role: 'Senior Manager',
       location: 'Waverock',
       projects: [
-        { name: 'Project1', technologies: ['Ruby', 'Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql'] },
-        { name: 'Project2', technologies: ['Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'React Js', 'Material UI'] },
-        { name: 'Project3', technologies: ['Python', 'Django', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'SQL'] },
-        { name: 'Project4', technologies: ['Node Js', 'AWS', 'Jquery', 'Javascript', 'Php', 'Ajax', 'XML', 'SQL', 'C#', '.NET'] },
+        { name: 'Project1', technologies: ['Ruby 2.4', 'Ruby on rails 5.2', 'SCSS', 'Bootstrap', 'Html', 'Postgresql'] },
+        { name: 'Project2', technologies: ['Ruby on rails', 'CSS', 'Bootstrap 3', 'Html5', 'Mongo DB', 'React Js', 'Material UI'] },
+        { name: 'Project3', technologies: ['Python', 'Django', 'CSS', 'Bootstrap 4', 'Docker', 'SQL'] },
+        { name: 'Project4', technologies: ['Node Js', 'AWS','Javascript', 'Php', 'Ajax', 'XML', 'Sqlite 3', 'C#', '.NET'] },
         { name: 'Project5', technologies: ['Angular 2', 'Java', 'Spring', 'Hadoop', 'Machine Learning', 'R', 'Numpy'] },
-        { name: 'Project6', technologies: ['Block Chain', 'Python', 'Jquery'] }
+        { name: 'Project6', technologies: ['Block Chain', 'Python 3', 'Jquery'] }
       ]
     },
     {
@@ -516,12 +516,12 @@ export const mockData: any = [
       role: 'Senior Manager',
       location: 'Waverock',
       projects: [
-        { name: 'Project1', technologies: ['Ruby', 'Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql'] },
-        { name: 'Project2', technologies: ['Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'React Js', 'Material UI'] },
-        { name: 'Project3', technologies: ['Python', 'Django', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'SQL'] },
-        { name: 'Project4', technologies: ['Node Js', 'AWS', 'Jquery', 'Javascript', 'Php', 'Ajax', 'XML', 'SQL', 'C#', '.NET'] },
+        { name: 'Project1', technologies: ['Ruby 2.4', 'Ruby on rails 5.2', 'SCSS', 'Bootstrap', 'Html', 'Postgresql'] },
+        { name: 'Project2', technologies: ['Ruby on rails', 'CSS', 'Bootstrap 3', 'Html5', 'Mongo DB', 'React Js', 'Material UI'] },
+        { name: 'Project3', technologies: ['Python', 'Django', 'CSS', 'Bootstrap 4', 'Docker', 'SQL'] },
+        { name: 'Project4', technologies: ['Node Js', 'AWS','Javascript', 'Php', 'Ajax', 'XML', 'Sqlite 3', 'C#', '.NET'] },
         { name: 'Project5', technologies: ['Angular 2', 'Java', 'Spring', 'Hadoop', 'Machine Learning', 'R', 'Numpy'] },
-        { name: 'Project6', technologies: ['Block Chain', 'Python', 'Jquery'] }
+        { name: 'Project6', technologies: ['Block Chain', 'Python 3', 'Jquery'] }
       ]
     },
     {
@@ -530,12 +530,12 @@ export const mockData: any = [
       role: 'Manager',
       location: 'Uppal',
       projects: [
-        { name: 'Project1', technologies: ['Ruby', 'Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql'] },
-        { name: 'Project2', technologies: ['Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'React Js', 'Material UI'] },
-        { name: 'Project3', technologies: ['Python', 'Django', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'SQL'] },
-        { name: 'Project4', technologies: ['Node Js', 'AWS', 'Jquery', 'Javascript', 'Php', 'Ajax', 'XML', 'SQL', 'C#', '.NET'] },
+        { name: 'Project1', technologies: ['Ruby 2.4', 'Ruby on rails 5.2', 'SCSS', 'Bootstrap', 'Html', 'Postgresql'] },
+        { name: 'Project2', technologies: ['Ruby on rails', 'CSS', 'Bootstrap 3', 'Html5', 'Mongo DB', 'React Js', 'Material UI'] },
+        { name: 'Project3', technologies: ['Python', 'Django', 'CSS', 'Bootstrap 4', 'Docker', 'SQL'] },
+        { name: 'Project4', technologies: ['Node Js', 'AWS','Javascript', 'Php', 'Ajax', 'XML', 'Sqlite 3', 'C#', '.NET'] },
         { name: 'Project5', technologies: ['Angular 2', 'Java', 'Spring', 'Hadoop', 'Machine Learning', 'R', 'Numpy'] },
-        { name: 'Project6', technologies: ['Block Chain', 'Python', 'Jquery'] }
+        { name: 'Project6', technologies: ['Block Chain', 'Python 3', 'Jquery'] }
       ]
     },
     {
@@ -544,12 +544,12 @@ export const mockData: any = [
       role: 'Manager',
       location: 'Uppal',
       projects: [
-        { name: 'Project1', technologies: ['Ruby', 'Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql'] },
-        { name: 'Project2', technologies: ['Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'React Js', 'Material UI'] },
-        { name: 'Project3', technologies: ['Python', 'Django', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'SQL'] },
-        { name: 'Project4', technologies: ['Node Js', 'AWS', 'Jquery', 'Javascript', 'Php', 'Ajax', 'XML', 'SQL', 'C#', '.NET'] },
+        { name: 'Project1', technologies: ['Ruby 2.4', 'Ruby on rails 5.2', 'SCSS', 'Bootstrap', 'Html', 'Postgresql'] },
+        { name: 'Project2', technologies: ['Ruby on rails', 'CSS', 'Bootstrap 3', 'Html5', 'Mongo DB', 'React Js', 'Material UI'] },
+        { name: 'Project3', technologies: ['Python', 'Django', 'CSS', 'Bootstrap 4', 'Docker', 'SQL'] },
+        { name: 'Project4', technologies: ['Node Js', 'AWS','Javascript', 'Php', 'Ajax', 'XML', 'Sqlite 3', 'C#', '.NET'] },
         { name: 'Project5', technologies: ['Angular 2', 'Java', 'Spring', 'Hadoop', 'Machine Learning', 'R', 'Numpy'] },
-        { name: 'Project6', technologies: ['Block Chain', 'Python', 'Jquery'] }
+        { name: 'Project6', technologies: ['Block Chain', 'Python 3', 'Jquery'] }
       ]
     },
     {
@@ -558,12 +558,12 @@ export const mockData: any = [
       role: 'Manager',
       location: 'Uppal',
       projects: [
-        { name: 'Project1', technologies: ['Ruby', 'Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql'] },
-        { name: 'Project2', technologies: ['Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'React Js', 'Material UI'] },
-        { name: 'Project3', technologies: ['Python', 'Django', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'SQL'] },
-        { name: 'Project4', technologies: ['Node Js', 'AWS', 'Jquery', 'Javascript', 'Php', 'Ajax', 'XML', 'SQL', 'C#', '.NET'] },
+        { name: 'Project1', technologies: ['Ruby 2.4', 'Ruby on rails 5.2', 'SCSS', 'Bootstrap', 'Html', 'Postgresql'] },
+        { name: 'Project2', technologies: ['Ruby on rails', 'CSS', 'Bootstrap 3', 'Html5', 'Mongo DB', 'React Js', 'Material UI'] },
+        { name: 'Project3', technologies: ['Python', 'Django', 'CSS', 'Bootstrap 4', 'Docker', 'SQL'] },
+        { name: 'Project4', technologies: ['Node Js', 'AWS','Javascript', 'Php', 'Ajax', 'XML', 'Sqlite 3', 'C#', '.NET'] },
         { name: 'Project5', technologies: ['Angular 2', 'Java', 'Spring', 'Hadoop', 'Machine Learning', 'R', 'Numpy'] },
-        { name: 'Project6', technologies: ['Block Chain', 'Python', 'Jquery'] }
+        { name: 'Project6', technologies: ['Block Chain', 'Python 3', 'Jquery'] }
       ]
     },
     {
@@ -572,12 +572,12 @@ export const mockData: any = [
       role: 'Senior Manager',
       location: 'Waverock',
       projects: [
-        { name: 'Project1', technologies: ['Ruby', 'Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql'] },
-        { name: 'Project2', technologies: ['Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'React Js', 'Material UI'] },
-        { name: 'Project3', technologies: ['Python', 'Django', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'SQL'] },
-        { name: 'Project4', technologies: ['Node Js', 'AWS', 'Jquery', 'Javascript', 'Php', 'Ajax', 'XML', 'SQL', 'C#', '.NET'] },
+        { name: 'Project1', technologies: ['Ruby 2.4', 'Ruby on rails 5.2', 'SCSS', 'Bootstrap', 'Html', 'Postgresql'] },
+        { name: 'Project2', technologies: ['Ruby on rails', 'CSS', 'Bootstrap 3', 'Html5', 'Mongo DB', 'React Js', 'Material UI'] },
+        { name: 'Project3', technologies: ['Python', 'Django', 'CSS', 'Bootstrap 4', 'Docker', 'SQL'] },
+        { name: 'Project4', technologies: ['Node Js', 'AWS','Javascript', 'Php', 'Ajax', 'XML', 'Sqlite 3', 'C#', '.NET'] },
         { name: 'Project5', technologies: ['Angular 2', 'Java', 'Spring', 'Hadoop', 'Machine Learning', 'R', 'Numpy'] },
-        { name: 'Project6', technologies: ['Block Chain', 'Python', 'Jquery'] }
+        { name: 'Project6', technologies: ['Block Chain', 'Python 3', 'Jquery'] }
       ]
     },
     {
@@ -586,12 +586,12 @@ export const mockData: any = [
       role: 'Manager',
       location: 'Waverock',
       projects: [
-        { name: 'Project1', technologies: ['Ruby', 'Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql'] },
-        { name: 'Project2', technologies: ['Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'React Js', 'Material UI'] },
-        { name: 'Project3', technologies: ['Python', 'Django', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'SQL'] },
-        { name: 'Project4', technologies: ['Node Js', 'AWS', 'Jquery', 'Javascript', 'Php', 'Ajax', 'XML', 'SQL', 'C#', '.NET'] },
+        { name: 'Project1', technologies: ['Ruby 2.4', 'Ruby on rails 5.2', 'SCSS', 'Bootstrap', 'Html', 'Postgresql'] },
+        { name: 'Project2', technologies: ['Ruby on rails', 'CSS', 'Bootstrap 3', 'Html5', 'Mongo DB', 'React Js', 'Material UI'] },
+        { name: 'Project3', technologies: ['Python', 'Django', 'CSS', 'Bootstrap 4', 'Docker', 'SQL'] },
+        { name: 'Project4', technologies: ['Node Js', 'AWS','Javascript', 'Php', 'Ajax', 'XML', 'Sqlite 3', 'C#', '.NET'] },
         { name: 'Project5', technologies: ['Angular 2', 'Java', 'Spring', 'Hadoop', 'Machine Learning', 'R', 'Numpy'] },
-        { name: 'Project6', technologies: ['Block Chain', 'Python', 'Jquery'] }
+        { name: 'Project6', technologies: ['Block Chain', 'Python 3', 'Jquery'] }
       ]
     },
     {
@@ -600,12 +600,12 @@ export const mockData: any = [
       role: 'Manager',
       location: 'Waverock',
       projects: [
-        { name: 'Project1', technologies: ['Ruby', 'Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql'] },
-        { name: 'Project2', technologies: ['Ruby on rails', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'React Js', 'Material UI'] },
-        { name: 'Project3', technologies: ['Python', 'Django', 'CSS', 'Bootstrap', 'Html', 'Docker', 'Postgresql', 'SQL'] },
-        { name: 'Project4', technologies: ['Node Js', 'AWS', 'Jquery', 'Javascript', 'Php', 'Ajax', 'XML', 'SQL', 'C#', '.NET'] },
+        { name: 'Project1', technologies: ['Ruby 2.4', 'Ruby on rails 5.2', 'SCSS', 'Bootstrap', 'Html', 'Postgresql'] },
+        { name: 'Project2', technologies: ['Ruby on rails', 'CSS', 'Bootstrap 3', 'Html5', 'Mongo DB', 'React Js', 'Material UI'] },
+        { name: 'Project3', technologies: ['Python', 'Django', 'CSS', 'Bootstrap 4', 'Docker', 'SQL'] },
+        { name: 'Project4', technologies: ['Node Js', 'AWS','Javascript', 'Php', 'Ajax', 'XML', 'Sqlite 3', 'C#', '.NET'] },
         { name: 'Project5', technologies: ['Angular 2', 'Java', 'Spring', 'Hadoop', 'Machine Learning', 'R', 'Numpy'] },
-        { name: 'Project6', technologies: ['Block Chain', 'Python', 'Jquery'] }
+        { name: 'Project6', technologies: ['Block Chain', 'Python 3', 'Jquery'] }
       ]
     },
     {
@@ -628,8 +628,9 @@ export const SkillList: any =
   { name: 'AWS' },{ name: 'Bash Shell script' },{ name: 'Batch Script' },{ name: 'Jenkins' },{ name: 'AngularJs' },{ name: 'Java' },{ name: 'spring' },
   { name: 'Clojure' },{ name: 'Nginx' },{ name: 'Hydra' },{ name: 'kafka' },{ name: 'Angular 2' },{ name: 'Hadoop' },{ name: '.NET' },{ name: 'C#' },
   { name: 'Slim' },{ name: 'Typescript' },{ name: 'Jquery' },{ name: 'Machine Learning' },{ name: 'Numpy' },{ name: 'R' },{ name: 'Block Chain' },
-  { name: 'Ajax' },{ name: 'Php' },{ name: 'XML' },{ name: 'Azure' }
- 
+  { name: 'Ajax' },{ name: 'Php' },{ name: 'XML' },{ name: 'Azure' },{ name: 'Ruby 2.4' },{ name: 'Ruby on rails 5.2' },
+  { name: 'SCSS' },{ name: 'Mongo DB' },{ name: 'Python 3' },{ name: 'Bootstrap 3' },{ name: 'Bootstrap 4' },{ name: 'Sqlite 3' },
+  { name: 'Html5' },{ name: 'Ruby 2.2' },{ name: 'Ruby on rails 4.2' }
 ]
 
 export const ManagerList: any = 
