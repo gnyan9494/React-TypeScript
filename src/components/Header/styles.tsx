@@ -10,9 +10,9 @@ const headerStyles = css({
     color:'#D3621E'
   },
   
- ' .locationDropdown': {
-      marginLeft: '420px !important'
-  },
+//  ' .locationDropdown': {
+//       marginLeft: '420px !important'
+//   },
 
  ' .react-autosuggest__container': {
     position: 'relative'
