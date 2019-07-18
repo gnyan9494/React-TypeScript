@@ -1,9 +1,11 @@
 To run the application:
-  npm i
-  npm run start
+ Install packages
+   1. npm i
+  2. npm run start
 
 To publish:
 
-npm install --global surge
-npm run build   # Creates production build in build/
-surge build     # Publishes
+1. npm install --global surge
+2. npm run build   # Creates production build in build/ ,
+then navigate to build folder
+3. surge build     # Publishes
