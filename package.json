@@ -5,7 +5,7 @@
   "dependencies": {
     "@types/react-autosuggest": "^9.3.4",
     "@types/react-select": "^1.2.7",
-    "bootstrap": "^3.3.7",
+    "bootstrap": "^3.4.1",
     "font-awesome": "^4.7.0",
     "glamor": "^2.20.40",
     "react": "^16.4.0",
